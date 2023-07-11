@@ -1,0 +1,22 @@
+2023-07-10 18:12:59,580 MainThread app.api.process ERROR While processing in Function Process.get_app, we got <class 'TypeError'> Exception. 
+ '__init__() got multiple values for argument 'key_func'' in Line Number 41  File Name process.py
+2023-07-10 18:18:01,948 MainThread app.api.process ERROR While processing in Function Process.get_app, we got <class 'TypeError'> Exception. 
+ '__init__() got multiple values for argument 'key_func'' in Line Number 41  File Name process.py
+2023-07-10 18:21:14,780 MainThread app.api.process ERROR While processing in Function Process.get_app, we got <class 'TypeError'> Exception. 
+ '__init__() got multiple values for argument 'key_func'' in Line Number 44  File Name process.py
+2023-07-10 18:22:04,582 MainThread app.api.process ERROR While processing in Function Process.get_app, we got <class 'TypeError'> Exception. 
+ '__init__() got multiple values for argument 'key_func'' in Line Number 45  File Name process.py
+2023-07-10 18:25:28,521 MainThread app.api.process ERROR While processing in Function Process.get_app, we got <class 'TypeError'> Exception. 
+ '__init__() takes 2 positional arguments but 3 positional arguments (and 1 keyword-only argument) were given' in Line Number 39  File Name process.py
+2023-07-10 18:42:14,287 Thread-6 app.api.service ERROR While processing in Function db_conn, we got <class 'mysql.connector.errors.ProgrammingError'> Exception. 
+ '1045 (28000): Access denied for user 'ananthchalamuru'@'localhost' (using password: YES)' in Line Number 14  File Name service.py
+2023-07-10 18:42:14,287 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'AttributeError'> Exception. 
+ ''NoneType' object has no attribute 'cursor'' in Line Number 26  File Name service.py
+2023-07-10 18:42:51,138 Thread-6 app.api.service ERROR While processing in Function db_conn, we got <class 'mysql.connector.errors.ProgrammingError'> Exception. 
+ '1045 (28000): Access denied for user 'ananthchalamuru'@'localhost' (using password: YES)' in Line Number 14  File Name service.py
+2023-07-10 18:42:51,138 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'AttributeError'> Exception. 
+ ''NoneType' object has no attribute 'cursor'' in Line Number 26  File Name service.py
+2023-07-10 18:43:28,986 Thread-6 app.api.service ERROR While processing in Function db_conn, we got <class 'mysql.connector.errors.ProgrammingError'> Exception. 
+ '1045 (28000): Access denied for user 'ananthchalamuru'@'localhost' (using password: YES)' in Line Number 14  File Name service.py
+2023-07-10 18:43:28,986 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'AttributeError'> Exception. 
+ ''NoneType' object has no attribute 'cursor'' in Line Number 26  File Name service.py
