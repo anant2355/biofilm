@@ -27,7 +27,6 @@ def return_db():
         cur.execute("show databases;")
         results = cur.fetchall()
         cur.close()
-        print(results)
         return results
     
     except Exception as e:
