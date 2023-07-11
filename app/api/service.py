@@ -24,7 +24,7 @@ def return_db():
     try:
         mydb = db_conn()
         cur = mydb.cursor()
-        cur.execute("show databases;")
+        cur.execute("show tables from biofilm;")
         results = cur.fetchall()
         cur.close()
         return results
@@ -32,4 +32,3 @@ def return_db():
     except Exception as e:
             logger.error(f"While processing in Function {return_db.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
         
-

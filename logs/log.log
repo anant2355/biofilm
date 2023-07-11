@@ -20,3 +20,7 @@
  '1045 (28000): Access denied for user 'ananthchalamuru'@'localhost' (using password: YES)' in Line Number 14  File Name service.py
 2023-07-10 18:43:28,986 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'AttributeError'> Exception. 
  ''NoneType' object has no attribute 'cursor'' in Line Number 26  File Name service.py
+2023-07-11 13:33:45,487 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'mysql.connector.errors.ProgrammingError'> Exception. 
+ '1046 (3D000): No database selected' in Line Number 27  File Name service.py
+2023-07-11 13:34:54,178 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'mysql.connector.errors.ProgrammingError'> Exception. 
+ '1046 (3D000): No database selected' in Line Number 27  File Name service.py

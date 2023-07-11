@@ -7,7 +7,6 @@ from core.logger import get_logger
 
 logger = get_logger(__name__)
 load_dotenv(os.path.join(os.path.join(os.getcwd(), "biofilm.env")))
-# print(os.environ['HOST'])
 
 class Process():
     def __init__(self, ):
@@ -24,7 +23,6 @@ class Process():
             parser.add_argument('--username', required=False, env_var='USERNAME')
             parser.add_argument('--password', required=False, env_var='PASSWORD')
             parser.add_argument('--default_request_rate_limit', required=False, type=int, env_var='DEFAULT_REQUEST_RATE_LIMIT', default=10)
-            print(parser.parse_args([]))
             return parser.parse_args([])
         
         except Exception as e:
