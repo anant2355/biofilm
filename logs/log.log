@@ -20,7 +20,213 @@
  '1045 (28000): Access denied for user 'ananthchalamuru'@'localhost' (using password: YES)' in Line Number 14  File Name service.py
 2023-07-10 18:43:28,986 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'AttributeError'> Exception. 
  ''NoneType' object has no attribute 'cursor'' in Line Number 26  File Name service.py
-2023-07-11 13:33:45,487 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'mysql.connector.errors.ProgrammingError'> Exception. 
- '1046 (3D000): No database selected' in Line Number 27  File Name service.py
-2023-07-11 13:34:54,178 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'mysql.connector.errors.ProgrammingError'> Exception. 
- '1046 (3D000): No database selected' in Line Number 27  File Name service.py
+2023-08-15 08:05:55,517 MainThread app.api.process ERROR While processing in Function Process.get_config, we got <class 'NameError'> Exception. 
+ 'name 'json' is not defined' in Line Number 43  File Name process.py
+2023-08-15 08:06:16,188 MainThread perf INFO Starting loading organisims from owl file 
+2023-08-15 08:09:20,406 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-08-15 08:11:41,050 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-08-15 08:12:23,690 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-08-15 08:12:46,741 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-08-15 08:12:48,677 MainThread __main__ INFO Len all: 2007586
+2023-08-15 08:12:48,677 MainThread __main__ INFO len good: 1952683
+2023-08-15 08:12:48,677 MainThread __main__ INFO len bad: 54904
+2023-08-15 08:12:50,930 MainThread perf INFO In elapsed_time=0:06:34.740358, Done loading organisims from owl file  
+2023-08-15 08:12:50,931 MainThread perf INFO Starting inserting organisms data into database
+2023-08-15 08:13:38,647 MainThread __main__ INFO 0 records inserted
+2023-08-15 08:13:43,682 MainThread __main__ INFO 100000 records inserted
+2023-08-15 08:13:48,677 MainThread __main__ INFO 200000 records inserted
+2023-08-15 08:13:53,764 MainThread __main__ INFO 300000 records inserted
+2023-08-15 08:13:59,266 MainThread __main__ INFO 400000 records inserted
+2023-08-15 08:14:05,171 MainThread __main__ INFO 500000 records inserted
+2023-08-15 08:14:10,939 MainThread __main__ INFO 600000 records inserted
+2023-08-15 08:14:17,394 MainThread __main__ INFO 700000 records inserted
+2023-08-15 08:14:25,243 MainThread __main__ INFO 800000 records inserted
+2023-08-15 08:14:31,060 MainThread __main__ INFO 900000 records inserted
+2023-08-15 08:14:36,209 MainThread __main__ INFO 1000000 records inserted
+2023-08-15 08:14:41,331 MainThread __main__ INFO 1100000 records inserted
+2023-08-15 08:14:46,489 MainThread __main__ INFO 1200000 records inserted
+2023-08-15 08:14:51,601 MainThread __main__ INFO 1300000 records inserted
+2023-08-15 08:14:56,655 MainThread __main__ INFO 1400000 records inserted
+2023-08-15 08:15:01,842 MainThread __main__ INFO 1500000 records inserted
+2023-08-15 08:15:07,233 MainThread __main__ INFO 1600000 records inserted
+2023-08-15 08:15:12,399 MainThread __main__ INFO 1700000 records inserted
+2023-08-15 08:15:17,565 MainThread __main__ INFO 1800000 records inserted
+2023-08-15 08:15:22,741 MainThread __main__ INFO 1900000 records inserted
+2023-08-15 08:15:26,198 MainThread perf INFO In elapsed_time=0:02:35.266092, Done inserting organisms data into database 
+2023-08-16 15:19:25,737 MainThread app.api.process ERROR While processing in Function Process.get_config, we got <class 'json.decoder.JSONDecodeError'> Exception. 
+ 'Expecting value: line 1 column 856 (char 855)' in Line Number 44  File Name process.py
+2023-08-16 15:35:52,479 MainThread perf INFO Starting loading organisims from owl file 
+2023-08-16 15:38:19,857 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-08-16 15:39:50,975 MainThread perf INFO Starting loading organisims from owl file 
+2023-08-16 15:42:02,091 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-08-16 15:44:20,985 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-08-16 15:45:05,807 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-08-16 15:45:27,166 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-08-16 15:45:29,079 MainThread __main__ INFO Len all: 2007586
+2023-08-16 15:45:29,079 MainThread __main__ INFO len good: 1952683
+2023-08-16 15:45:29,079 MainThread __main__ INFO len bad: 54904
+2023-08-16 15:45:31,230 MainThread perf INFO In elapsed_time=0:05:40.253947, Done loading organisims from owl file  
+2023-08-16 15:45:31,231 MainThread perf INFO Starting inserting organisms data into database
+2023-08-16 15:46:18,825 MainThread __main__ INFO 0 records inserted
+2023-08-16 15:46:23,925 MainThread __main__ INFO 100000 records inserted
+2023-08-16 15:46:28,994 MainThread __main__ INFO 200000 records inserted
+2023-08-16 15:46:34,094 MainThread __main__ INFO 300000 records inserted
+2023-08-16 15:46:39,189 MainThread __main__ INFO 400000 records inserted
+2023-08-16 15:46:44,327 MainThread __main__ INFO 500000 records inserted
+2023-08-16 15:46:49,451 MainThread __main__ INFO 600000 records inserted
+2023-08-16 15:46:54,589 MainThread __main__ INFO 700000 records inserted
+2023-08-16 15:46:59,723 MainThread __main__ INFO 800000 records inserted
+2023-08-16 15:47:04,896 MainThread __main__ INFO 900000 records inserted
+2023-08-16 15:47:10,017 MainThread __main__ INFO 1000000 records inserted
+2023-08-16 15:47:15,159 MainThread __main__ INFO 1100000 records inserted
+2023-08-16 15:47:20,355 MainThread __main__ INFO 1200000 records inserted
+2023-08-16 15:47:25,527 MainThread __main__ INFO 1300000 records inserted
+2023-08-16 15:47:30,647 MainThread __main__ INFO 1400000 records inserted
+2023-08-16 15:47:35,882 MainThread __main__ INFO 1500000 records inserted
+2023-08-16 15:47:41,139 MainThread __main__ INFO 1600000 records inserted
+2023-08-16 15:47:46,377 MainThread __main__ INFO 1700000 records inserted
+2023-08-16 15:47:51,647 MainThread __main__ INFO 1800000 records inserted
+2023-08-16 15:47:56,914 MainThread __main__ INFO 1900000 records inserted
+2023-08-16 15:48:00,229 MainThread perf INFO In elapsed_time=0:02:28.998096, Done inserting organisms data into database 
+2023-08-16 15:48:00,252 MainThread __main__ ERROR While processing in Function DB_init.load_substratum, we got <class 'mysql.connector.errors.ProgrammingError'> Exception. 
+ 'Could not process parameters: str(Picoliter Drops), it must be of type list, tuple or dict' in Line Number 119  File Name db_start.py
+2023-08-16 15:48:00,276 MainThread __main__ ERROR While processing in Function DB_init.load_vessels, we got <class 'NameError'> Exception. 
+ 'name 'substratum' is not defined' in Line Number 135  File Name db_start.py
+2023-08-16 16:43:31,234 MainThread perf INFO Starting loading organisims from owl file 
+2023-08-16 16:45:51,710 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-08-16 16:48:14,248 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-08-16 16:48:59,218 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-08-16 16:49:21,008 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-08-16 16:49:22,909 MainThread __main__ INFO Len all: 2007586
+2023-08-16 16:49:22,909 MainThread __main__ INFO len good: 1952683
+2023-08-16 16:49:22,909 MainThread __main__ INFO len bad: 54904
+2023-08-16 16:49:25,278 MainThread perf INFO In elapsed_time=0:05:54.038016, Done loading organisims from owl file  
+2023-08-16 16:49:25,278 MainThread perf INFO Starting inserting organisms data into database
+2023-08-16 16:50:12,515 MainThread __main__ INFO 0 records inserted
+2023-08-16 16:50:17,671 MainThread __main__ INFO 100000 records inserted
+2023-08-16 16:50:22,758 MainThread __main__ INFO 200000 records inserted
+2023-08-16 16:50:27,867 MainThread __main__ INFO 300000 records inserted
+2023-08-16 16:50:32,952 MainThread __main__ INFO 400000 records inserted
+2023-08-16 16:50:38,040 MainThread __main__ INFO 500000 records inserted
+2023-08-16 16:50:43,144 MainThread __main__ INFO 600000 records inserted
+2023-08-16 16:50:48,224 MainThread __main__ INFO 700000 records inserted
+2023-08-16 16:50:53,337 MainThread __main__ INFO 800000 records inserted
+2023-08-16 16:50:58,449 MainThread __main__ INFO 900000 records inserted
+2023-08-16 16:51:03,528 MainThread __main__ INFO 1000000 records inserted
+2023-08-16 16:51:08,636 MainThread __main__ INFO 1100000 records inserted
+2023-08-16 16:51:13,846 MainThread __main__ INFO 1200000 records inserted
+2023-08-16 16:51:18,980 MainThread __main__ INFO 1300000 records inserted
+2023-08-16 16:51:24,062 MainThread __main__ INFO 1400000 records inserted
+2023-08-16 16:51:29,294 MainThread __main__ INFO 1500000 records inserted
+2023-08-16 16:51:34,556 MainThread __main__ INFO 1600000 records inserted
+2023-08-16 16:51:39,796 MainThread __main__ INFO 1700000 records inserted
+2023-08-16 16:51:45,245 MainThread __main__ INFO 1800000 records inserted
+2023-08-16 16:51:50,537 MainThread __main__ INFO 1900000 records inserted
+2023-08-16 16:51:53,987 MainThread perf INFO In elapsed_time=0:02:28.707675, Done inserting organisms data into database 
+2023-08-16 16:51:54,055 MainThread __main__ ERROR While processing in Function DB_init.load_vessels, we got <class 'NameError'> Exception. 
+ 'name 'substratum' is not defined' in Line Number 137  File Name db_start.py
+2023-08-16 16:56:15,344 MainThread perf INFO Starting loading organisims from owl file 
+2023-08-16 16:58:28,048 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-08-16 17:00:43,205 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-08-16 17:01:28,207 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-08-16 17:01:49,452 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-08-16 17:01:51,344 MainThread __main__ INFO Len all: 2007586
+2023-08-16 17:01:51,345 MainThread __main__ INFO len good: 1952683
+2023-08-16 17:01:51,345 MainThread __main__ INFO len bad: 54904
+2023-08-16 17:01:53,504 MainThread perf INFO In elapsed_time=0:05:38.158825, Done loading organisims from owl file  
+2023-08-16 17:01:53,505 MainThread perf INFO Starting inserting organisms data into database
+2023-08-16 17:02:42,031 MainThread __main__ INFO 0 records inserted
+2023-08-16 17:02:47,255 MainThread __main__ INFO 100000 records inserted
+2023-08-16 17:02:52,323 MainThread __main__ INFO 200000 records inserted
+2023-08-16 17:02:57,389 MainThread __main__ INFO 300000 records inserted
+2023-08-16 17:03:02,461 MainThread __main__ INFO 400000 records inserted
+2023-08-16 17:03:07,558 MainThread __main__ INFO 500000 records inserted
+2023-08-16 17:03:12,638 MainThread __main__ INFO 600000 records inserted
+2023-08-16 17:03:17,728 MainThread __main__ INFO 700000 records inserted
+2023-08-16 17:03:22,832 MainThread __main__ INFO 800000 records inserted
+2023-08-16 17:03:27,939 MainThread __main__ INFO 900000 records inserted
+2023-08-16 17:03:33,032 MainThread __main__ INFO 1000000 records inserted
+2023-08-16 17:03:38,154 MainThread __main__ INFO 1100000 records inserted
+2023-08-16 17:03:43,330 MainThread __main__ INFO 1200000 records inserted
+2023-08-16 17:03:48,454 MainThread __main__ INFO 1300000 records inserted
+2023-08-16 17:03:53,573 MainThread __main__ INFO 1400000 records inserted
+2023-08-16 17:03:58,777 MainThread __main__ INFO 1500000 records inserted
+2023-08-16 17:04:04,004 MainThread __main__ INFO 1600000 records inserted
+2023-08-16 17:04:09,191 MainThread __main__ INFO 1700000 records inserted
+2023-08-16 17:04:14,653 MainThread __main__ INFO 1800000 records inserted
+2023-08-16 17:04:19,984 MainThread __main__ INFO 1900000 records inserted
+2023-08-16 17:04:23,422 MainThread perf INFO In elapsed_time=0:02:29.916575, Done inserting organisms data into database 
+2023-08-16 17:04:23,423 MainThread perf INFO Starting inserting substratum data into database
+2023-08-16 17:04:23,471 MainThread perf INFO In elapsed_time=0:00:00.048214, Done inserting substratum data into database 
+2023-08-16 17:04:23,471 MainThread perf INFO Starting inserting vessels data into database
+2023-08-16 17:04:23,492 MainThread perf INFO In elapsed_time=0:00:00.020518, Done inserting vessels data into database 
+2023-08-17 07:15:00,927 Thread-6 app.api.service ERROR While processing in Function db_conn, we got <class 'NameError'> Exception. 
+ 'name 'pymysql' is not defined' in Line Number 13  File Name service.py
+2023-08-17 07:15:00,930 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'AttributeError'> Exception. 
+ ''NoneType' object has no attribute 'cursor'' in Line Number 30  File Name service.py
+2023-08-17 07:15:41,145 Thread-6 app.api.service ERROR While processing in Function db_conn, we got <class 'AttributeError'> Exception. 
+ ''Namespace' object has no attribute 'db_host_name'' in Line Number 14  File Name service.py
+2023-08-17 07:15:41,146 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'AttributeError'> Exception. 
+ ''NoneType' object has no attribute 'cursor'' in Line Number 31  File Name service.py
+2023-08-17 07:16:59,894 Thread-6 app.api.service INFO Connection created successfully
+2023-08-17 07:16:59,895 Thread-6 app.api.service ERROR While processing in Function return_db, we got <class 'AttributeError'> Exception. 
+ '__enter__' in Line Number 31  File Name service.py
+2023-08-17 07:26:18,772 Thread-6 app.api.service INFO Connection created successfully
+2023-08-17 07:35:06,858 MainThread perf INFO Starting loading organisims from owl file 
+2023-08-17 07:38:08,271 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-08-17 07:40:31,178 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-08-17 07:40:56,014 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-08-17 07:41:37,695 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-08-17 07:41:39,607 MainThread __main__ INFO Len all: 2007586
+2023-08-17 07:41:39,608 MainThread __main__ INFO len good: 1952683
+2023-08-17 07:41:39,608 MainThread __main__ INFO len bad: 54904
+2023-08-17 07:41:41,648 MainThread perf INFO In elapsed_time=0:06:34.789426, Done loading organisims from owl file  
+2023-08-17 07:41:41,648 MainThread perf INFO Starting inserting organisms data into database
+2023-08-17 07:41:43,936 MainThread app.api.service INFO Connection created successfully
+2023-08-17 07:42:03,196 MainThread perf INFO In elapsed_time=0:00:21.547005, Done inserting organisms data into database 
+2023-08-17 07:42:03,196 MainThread perf INFO Starting inserting substratum data into database
+2023-08-17 07:42:03,199 MainThread app.api.service INFO Connection created successfully
+2023-08-17 07:42:03,211 MainThread perf INFO In elapsed_time=0:00:00.014791, Done inserting substratum data into database 
+2023-08-17 07:42:03,211 MainThread perf INFO Starting inserting vessels data into database
+2023-08-17 07:42:03,213 MainThread app.api.service INFO Connection created successfully
+2023-08-17 07:42:03,224 MainThread perf INFO In elapsed_time=0:00:00.013051, Done inserting vessels data into database 
+2023-08-17 07:45:15,758 Thread-6 app.api.service INFO Connection created successfully
+2023-08-17 11:04:42,741 MainThread perf INFO Starting loading organisims from owl file 
+2023-08-17 11:07:19,797 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-08-17 11:09:53,683 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-08-17 11:10:20,269 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-08-17 11:11:05,075 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-08-17 11:11:06,964 MainThread __main__ INFO Len all: 2007586
+2023-08-17 11:11:06,964 MainThread __main__ INFO len good: 1952683
+2023-08-17 11:11:06,964 MainThread __main__ INFO len bad: 54904
+2023-08-17 11:11:09,374 MainThread perf INFO In elapsed_time=0:06:26.629669, Done loading organisims from owl file  
+2023-08-17 11:11:09,375 MainThread perf INFO Starting inserting organisms data into database
+2023-08-17 11:11:11,901 MainThread app.api.service INFO Connection created successfully
+2023-08-17 11:11:31,383 MainThread perf INFO In elapsed_time=0:00:22.008050, Done inserting organisms data into database 
+2023-08-17 11:11:31,384 MainThread perf INFO Starting inserting substratum data into database
+2023-08-17 11:11:31,388 MainThread app.api.service INFO Connection created successfully
+2023-08-17 11:11:31,402 MainThread perf INFO In elapsed_time=0:00:00.017514, Done inserting substratum data into database 
+2023-08-17 11:11:31,402 MainThread perf INFO Starting inserting vessels data into database
+2023-08-17 11:11:31,403 MainThread app.api.service INFO Connection created successfully
+2023-08-17 11:11:31,413 MainThread perf INFO In elapsed_time=0:00:00.010723, Done inserting vessels data into database 
+2023-08-17 11:17:01,649 Thread-6 app.api.service INFO Connection created successfully
+2023-08-22 21:02:41,590 MainThread perf INFO Starting loading organisims from owl file 
+2023-08-22 21:07:30,309 MainThread perf INFO Starting loading organisims from owl file 
+2023-08-22 21:12:18,975 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-08-22 21:14:46,907 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-08-22 21:15:12,432 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-08-22 21:15:56,152 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-08-22 21:15:58,018 MainThread __main__ INFO Len all: 2007586
+2023-08-22 21:15:58,019 MainThread __main__ INFO len good: 1952683
+2023-08-22 21:15:58,019 MainThread __main__ INFO len bad: 54904
+2023-08-22 21:16:00,311 MainThread perf INFO In elapsed_time=0:08:29.997974, Done loading organisims from owl file  
+2023-08-22 21:16:00,312 MainThread perf INFO Starting inserting organisms data into database
+2023-08-22 21:16:03,093 MainThread app.api.service INFO Connection created successfully
+2023-08-22 21:16:21,728 MainThread perf INFO In elapsed_time=0:00:21.415397, Done inserting organisms data into database 
+2023-08-22 21:16:21,728 MainThread perf INFO Starting inserting substratum data into database
+2023-08-22 21:16:21,731 MainThread app.api.service INFO Connection created successfully
+2023-08-22 21:16:21,741 MainThread perf INFO In elapsed_time=0:00:00.012144, Done inserting substratum data into database 
+2023-08-22 21:16:21,741 MainThread perf INFO Starting inserting vessels data into database
+2023-08-22 21:16:21,742 MainThread app.api.service INFO Connection created successfully
+2023-08-22 21:16:21,747 MainThread perf INFO In elapsed_time=0:00:00.006030, Done inserting vessels data into database 
+2023-08-22 21:20:31,644 Thread-6 app.api.service INFO Connection created successfully
