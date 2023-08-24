@@ -5,9 +5,12 @@ from flask import Flask
 from dotenv import load_dotenv
 import configargparse as argparse
 from core.logger import get_logger
+from flask_swagger_ui import get_swaggerui_blueprint
+
 
 logger = get_logger(__name__)
 load_dotenv(os.path.join(os.path.join(os.getcwd(), "biofilm.env")))
+
 
 class Process():
     def __init__(self, ):
@@ -53,6 +56,16 @@ class Process():
     def get_app(self, ):
         try:
             app = Flask(__name__)
+            
+            swaggerui_blueprint = get_swaggerui_blueprint(
+                '/swagger',
+                '/static/swagger.json',
+                config = {
+                    'app_name' : 'Biofilm API',
+                    'validatorUrl' : None
+                }
+            )
+            app.register_blueprint(swaggerui_blueprint,url_prefix = '/swagger')
             return app
         
         except Exception as e:

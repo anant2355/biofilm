@@ -1,0 +1,92 @@
+{
+    "openapi": "3.0.0",
+    "info":
+    {
+        "description": "testing swagger UI ",
+        "version": "1.0.0",
+        "title": "Biofilm application testing UI",
+        "license":
+        {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "tags":
+    [
+        {
+            "name": "Biofilm API",
+            "description": "retrieve the biofilm images and metadata"
+        }
+    ],
+    "servers":
+    [
+        {
+            "url": "/"
+        }
+    ],
+    "components":
+    {
+        "schemas":
+        {
+            "Limit":
+            {
+                "type": "object",
+                "properties":
+                {
+                    "limit":
+                    {
+                        "type": "integer"
+                    }
+                }
+            }
+        }
+    },
+    "paths":
+    {
+        "/db":
+        {
+            "post":
+            {
+                "tags":
+                [
+                    "retrieve All organisms from API"
+                ],
+                "summary": "retrieve All organisms",
+                "requestBody":
+                {
+                    "description": "number of organisms needed",
+                    "required": true,
+                    "content":
+                    {
+                        "application/json":
+                        {
+                            "schema":
+                            {
+                                "$ref": "#/components/schemas/Limit"
+                            }
+                        }
+                    }
+                },
+                "responses":
+                {
+                    "200":
+                    {
+                        "description": "OK",
+                        "schema":
+                        {
+                            "$ref": "#/components/schemas/Limit"
+                        }
+                    },
+                    "404":
+                    {
+                        "description": "NOT FOUND",
+                        "schema":
+                        {
+                            "$ref": "#/components/schemas/Limit"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
