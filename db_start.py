@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from core.metrics import time_it
 from core.logger import get_logger
 from app.api.process import Process
-from app.api.service import db_conn
+from app.api.service import db_conn 
 
 
 processor=Process()
