@@ -1,6 +1,6 @@
--- drop table vessels
+-- drop table Biofilm.vessels
 
 CREATE TABLE Biofilm.vessels (
-    vessels varchar(255) not null,  -- vessels
-    PRIMARY KEY (vessels)
+    vessel_name varchar(255) not null,  -- vessels
+    PRIMARY KEY (vessel_name)
 );

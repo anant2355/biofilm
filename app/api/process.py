@@ -24,10 +24,14 @@ class Process():
         """
         try:
             parser = argparse.ArgumentParser(description='biofilm_api')
-            parser.add_argument('--db_host_name', required=False, env_var='DB_HOST')
+            parser.add_argument('--db_host_name', required=True, env_var='DB_HOST')
             parser.add_argument('--db_user', required=False, env_var='DB_USER')
             parser.add_argument('--db_paswd', required=False, env_var='DB_PWD')
             parser.add_argument('--db_name', required=False, env_var='DB_NAME')
+            parser.add_argument('--remote_host', required=False, env_var='REMOTE_HOST')
+            parser.add_argument('--remote_port', required=False, env_var='REMOTE_PORT')
+            parser.add_argument('--remote_username', required=False, env_var='REMOTE_USERNAME')
+            parser.add_argument('--remote_password', required=False, env_var='REMOTE_PASSWORD')
             parser.add_argument('--default_request_rate_limit', required=False, type=int, env_var='DEFAULT_REQUEST_RATE_LIMIT', default=10)
             parser.add_argument('--config_file_name', required=False, env_var='CONFIG_FILE_NAME')
             return parser.parse_args([])

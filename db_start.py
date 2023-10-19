@@ -20,6 +20,7 @@ class DB_start():
         self.load_organisms()
         self.load_substratum()
         self.load_vessels()
+        self.load_labs()
     
     @time_it("loading organisims from owl file ")
     def create_organisms(self, ):
@@ -96,11 +97,11 @@ class DB_start():
 
             connection = db_conn()
             with connection.cursor() as cur:
-                cur.execute(config['organism_truncate_query'])
+#                 cur.execute(config['organism_truncate_query'])
                 cur.executemany(config['organism_insert_query'], organisms_list)
                 connection.commit()
-                connection.close()
                 cur.close()
+                connection.close()
 
         except Exception as e:
             logger.error(f"While processing in Function {DB_init.load_organisms.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
@@ -114,7 +115,7 @@ class DB_start():
             
             connection = db_conn()
             with connection.cursor() as cur:
-                cur.execute(config['substratum_truncate_query'])
+#                 cur.execute(config['substratum_truncate_query'])
                 cur.executemany(config['substratum_insert_query'], substratum)
                 connection.commit()
                 cur.close()
@@ -133,7 +134,7 @@ class DB_start():
             
             connection = db_conn()
             with connection.cursor() as cur:
-                cur.execute(config['vessels_truncate_query'])
+#                 cur.execute(config['vessels_truncate_query'])
                 cur.executemany(config['vessels_insert_query'], vessels)
                 connection.commit()
                 cur.close()
@@ -141,6 +142,24 @@ class DB_start():
 
         except Exception as e:
             logger.error(f"While processing in Function {DB_init.load_vessels.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
+            
+    @time_it("inserting labs data into database")
+    def load_labs(self, ):
+        try:
+            
+            labs = open(config['static_folder']+'/'+config['labs_output_filename'], "r").read().split('\n')
+            labs = [tuple([lab]) for lab in labs]
+            
+            connection = db_conn()
+            with connection.cursor() as cur:
+#                 cur.execute(config['labs_truncate_query'])
+                cur.executemany(config['labs_insert_query'], labs)
+                connection.commit()
+                cur.close()
+                connection.close()
+
+        except Exception as e:
+            logger.error(f"While processing in Function {DB_init.load_labs.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
             
             
 if __name__ == "__main__":

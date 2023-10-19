@@ -235,3 +235,125 @@
 2023-08-24 09:37:39,904 Thread-28 app.api.service INFO Connection created successfully
 2023-08-24 09:39:21,667 Thread-13 app.api.service INFO Connection created successfully
 2023-08-24 11:40:15,857 Thread-14 app.api.service INFO Connection created successfully
+2023-08-29 16:47:27,926 MainThread perf INFO Starting loading organisims from owl file 
+2023-08-29 16:50:00,716 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-08-29 16:52:32,659 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-08-29 16:52:58,218 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-08-29 16:53:44,549 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-08-29 16:53:46,612 MainThread __main__ INFO Len all: 2007586
+2023-08-29 16:53:46,613 MainThread __main__ INFO len good: 1952683
+2023-08-29 16:53:46,613 MainThread __main__ INFO len bad: 54904
+2023-08-29 16:53:48,950 MainThread perf INFO In elapsed_time=0:06:21.021120, Done loading organisims from owl file  
+2023-08-29 16:53:48,951 MainThread perf INFO Starting inserting organisms data into database
+2023-08-29 16:53:52,028 MainThread app.api.service INFO Connection created successfully
+2023-08-29 16:54:11,005 MainThread perf INFO In elapsed_time=0:00:22.051312, Done inserting organisms data into database 
+2023-08-29 16:54:11,008 MainThread perf INFO Starting inserting substratum data into database
+2023-08-29 16:54:11,023 MainThread app.api.service INFO Connection created successfully
+2023-08-29 16:54:11,043 MainThread perf INFO In elapsed_time=0:00:00.035041, Done inserting substratum data into database 
+2023-08-29 16:54:11,043 MainThread perf INFO Starting inserting vessels data into database
+2023-08-29 16:54:11,044 MainThread app.api.service INFO Connection created successfully
+2023-08-29 16:54:11,050 MainThread perf INFO In elapsed_time=0:00:00.006614, Done inserting vessels data into database 
+2023-08-29 16:55:48,450 Thread-14 app.api.service INFO Connection created successfully
+2023-09-01 08:30:14,931 Thread-14 app.api.service INFO Connection created successfully
+2023-09-01 08:51:08,831 Thread-15 app.api.service INFO Connection created successfully
+2023-09-13 13:37:04,186 MainThread perf INFO Starting loading organisims from owl file 
+2023-09-13 13:39:28,478 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-09-13 13:41:54,407 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-09-13 13:42:19,747 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-09-13 13:43:02,519 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-09-13 13:43:04,403 MainThread __main__ INFO Len all: 2007586
+2023-09-13 13:43:04,403 MainThread __main__ INFO len good: 1952683
+2023-09-13 13:43:04,403 MainThread __main__ INFO len bad: 54904
+2023-09-13 13:43:06,557 MainThread perf INFO In elapsed_time=0:06:02.368096, Done loading organisims from owl file  
+2023-09-13 13:43:06,557 MainThread perf INFO Starting inserting organisms data into database
+2023-09-13 13:43:09,134 MainThread app.api.service INFO Connection created successfully
+2023-09-13 13:43:27,721 MainThread perf INFO In elapsed_time=0:00:21.161413, Done inserting organisms data into database 
+2023-09-13 13:43:27,721 MainThread perf INFO Starting inserting substratum data into database
+2023-09-13 13:43:27,724 MainThread app.api.service INFO Connection created successfully
+2023-09-13 13:43:27,735 MainThread perf INFO In elapsed_time=0:00:00.013653, Done inserting substratum data into database 
+2023-09-13 13:43:27,735 MainThread perf INFO Starting inserting vessels data into database
+2023-09-13 13:43:27,736 MainThread app.api.service INFO Connection created successfully
+2023-09-13 13:43:27,742 MainThread perf INFO In elapsed_time=0:00:00.007415, Done inserting vessels data into database 
+2023-09-13 13:59:47,649 Thread-16 app.api.service INFO Connection created successfully
+2023-09-13 14:00:41,276 Thread-18 app.api.service ERROR While processing in Function return_db, we got <class 'werkzeug.exceptions.UnsupportedMediaType'> Exception. 
+ '415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.' in Line Number 30  File Name service.py
+2023-09-13 14:01:08,799 Thread-19 app.api.service ERROR While processing in Function return_db, we got <class 'werkzeug.exceptions.UnsupportedMediaType'> Exception. 
+ '415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.' in Line Number 30  File Name service.py
+2023-09-13 14:01:40,028 Thread-20 app.api.service ERROR While processing in Function return_db, we got <class 'werkzeug.exceptions.UnsupportedMediaType'> Exception. 
+ '415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.' in Line Number 30  File Name service.py
+2023-09-13 14:01:59,689 Thread-21 app.api.service ERROR While processing in Function return_db, we got <class 'werkzeug.exceptions.UnsupportedMediaType'> Exception. 
+ '415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.' in Line Number 30  File Name service.py
+2023-09-13 14:02:36,214 Thread-22 app.api.service INFO Connection created successfully
+2023-09-13 14:04:11,915 Thread-25 app.api.service INFO Connection created successfully
+2023-09-13 14:16:10,623 Thread-38 app.api.service INFO Connection created successfully
+2023-09-13 17:00:07,063 MainThread perf INFO Starting inserting substratum data into database
+2023-09-13 17:00:07,081 MainThread app.api.service INFO Connection created successfully
+2023-09-13 17:00:07,097 MainThread perf INFO In elapsed_time=0:00:00.034107, Done inserting substratum data into database 
+2023-09-13 17:00:07,097 MainThread perf INFO Starting inserting vessels data into database
+2023-09-13 17:00:07,098 MainThread app.api.service INFO Connection created successfully
+2023-09-13 17:00:07,105 MainThread perf INFO In elapsed_time=0:00:00.007049, Done inserting vessels data into database 
+2023-09-13 17:00:07,105 MainThread perf INFO Starting inserting labs data into database
+2023-09-13 17:00:07,106 MainThread app.api.service INFO Connection created successfully
+2023-09-13 17:00:07,110 MainThread perf INFO In elapsed_time=0:00:00.005556, Done inserting labs data into database 
+2023-09-13 17:21:03,706 MainThread perf INFO Starting loading organisims from owl file 
+2023-09-13 17:23:30,736 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-09-13 17:26:03,020 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-09-13 17:26:28,989 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-09-13 17:27:11,934 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-09-13 17:27:13,863 MainThread __main__ INFO Len all: 2007586
+2023-09-13 17:27:13,863 MainThread __main__ INFO len good: 1952683
+2023-09-13 17:27:13,863 MainThread __main__ INFO len bad: 54904
+2023-09-13 17:27:15,935 MainThread perf INFO In elapsed_time=0:06:12.224139, Done loading organisims from owl file  
+2023-09-13 17:27:15,935 MainThread perf INFO Starting inserting organisms data into database
+2023-09-13 17:27:18,376 MainThread app.api.service INFO Connection created successfully
+2023-09-13 20:53:10,625 MainThread perf INFO Starting loading organisims from owl file 
+2023-09-13 20:56:07,432 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-09-13 20:58:34,360 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-09-13 20:59:00,887 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-09-13 20:59:45,719 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-09-13 20:59:47,682 MainThread __main__ INFO Len all: 2007586
+2023-09-13 20:59:47,683 MainThread __main__ INFO len good: 1952683
+2023-09-13 20:59:47,683 MainThread __main__ INFO len bad: 54904
+2023-09-13 20:59:50,298 MainThread perf INFO In elapsed_time=0:06:39.669696, Done loading organisims from owl file  
+2023-09-13 20:59:50,299 MainThread perf INFO Starting inserting organisms data into database
+2023-09-13 20:59:53,425 MainThread app.api.service INFO Connection created successfully
+2023-09-13 21:21:57,548 MainThread perf INFO Starting loading organisims from owl file 
+2023-09-13 21:24:24,782 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-09-13 21:26:51,906 MainThread __main__ INFO Found 2253947 subclasses of ['cellular organisms']
+2023-09-13 21:27:17,097 MainThread __main__ INFO Found 2007586 nodes with has_rank ending in species
+2023-09-13 21:27:59,728 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-09-13 21:28:01,632 MainThread __main__ INFO Len all: 2007586
+2023-09-13 21:28:01,632 MainThread __main__ INFO len good: 1952683
+2023-09-13 21:28:01,632 MainThread __main__ INFO len bad: 54904
+2023-09-13 21:28:03,797 MainThread perf INFO In elapsed_time=0:06:06.245327, Done loading organisims from owl file  
+2023-09-13 21:28:03,797 MainThread perf INFO Starting inserting organisms data into database
+2023-09-13 21:28:06,222 MainThread app.api.service INFO Connection created successfully
+2023-09-13 21:28:24,871 MainThread perf INFO In elapsed_time=0:00:21.072557, Done inserting organisms data into database 
+2023-09-13 21:28:24,872 MainThread perf INFO Starting inserting substratum data into database
+2023-09-13 21:28:24,874 MainThread app.api.service INFO Connection created successfully
+2023-09-13 21:28:24,879 MainThread perf INFO In elapsed_time=0:00:00.007217, Done inserting substratum data into database 
+2023-09-13 21:28:24,879 MainThread perf INFO Starting inserting vessels data into database
+2023-09-13 21:28:24,880 MainThread app.api.service INFO Connection created successfully
+2023-09-13 21:28:24,882 MainThread perf INFO In elapsed_time=0:00:00.003033, Done inserting vessels data into database 
+2023-09-13 21:28:24,882 MainThread perf INFO Starting inserting labs data into database
+2023-09-13 21:28:24,884 MainThread app.api.service INFO Connection created successfully
+2023-09-13 21:28:24,885 MainThread perf INFO In elapsed_time=0:00:00.002843, Done inserting labs data into database 
+2023-10-19 09:05:51,521 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-19 09:05:51,743 Thread-6 app.api.service ERROR While processing in Function return_image, we got <class 'NameError'> Exception. 
+ 'name 'remote_file_path' is not defined' in Line Number 64  File Name service.py
+2023-10-19 09:11:59,955 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-19 09:14:39,101 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-19 09:27:28,627 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-19 09:32:26,234 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-19 09:35:25,596 Thread-9 app.api.service INFO Connection to remote server created successfully
+2023-10-19 09:48:21,163 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-19 10:26:22,169 Thread-7 app.api.service INFO Connection to remote server created successfully
+2023-10-19 10:26:22,367 Thread-7 app.api.service ERROR While processing in Function upload_image, we got <class 'TypeError'> Exception. 
+ 'stat: path should be string, bytes, os.PathLike or integer, not FileStorage' in Line Number 96  File Name service.py
+2023-10-19 10:33:04,805 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-19 10:36:23,285 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-19 10:36:23,911 Thread-6 app.api.service INFO Image uploaded to 'temp/10181.jpeg' on the remote server
+2023-10-19 10:36:23,911 Thread-6 app.api.service ERROR While processing in Function upload_image, we got <class 'NameError'> Exception. 
+ 'name 'jsonify' is not defined' in Line Number 102  File Name service.py
+2023-10-19 10:37:27,664 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-19 10:37:28,347 Thread-6 app.api.service INFO Image uploaded to 'temp/10181.jpeg' on the remote server
