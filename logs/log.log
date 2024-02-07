@@ -357,3 +357,649 @@
  'name 'jsonify' is not defined' in Line Number 102  File Name service.py
 2023-10-19 10:37:27,664 Thread-6 app.api.service INFO Connection to remote server created successfully
 2023-10-19 10:37:28,347 Thread-6 app.api.service INFO Image uploaded to 'temp/10181.jpeg' on the remote server
+2023-10-19 18:33:19,671 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-20 07:26:53,331 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-20 07:26:53,587 Thread-6 app.api.service ERROR While processing in Function upload_image, we got <class 'FileNotFoundError'> Exception. 
+ '[Errno 2] No such file' in Line Number 108  File Name service.py
+2023-10-20 07:28:04,186 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-20 07:28:04,409 Thread-6 app.api.service ERROR While processing in Function upload_image, we got <class 'FileNotFoundError'> Exception. 
+ '[Errno 2] No such file' in Line Number 109  File Name service.py
+2023-10-20 07:28:46,398 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-20 07:28:46,594 Thread-6 app.api.service ERROR While processing in Function upload_image, we got <class 'FileNotFoundError'> Exception. 
+ '[Errno 2] No such file' in Line Number 109  File Name service.py
+2023-10-20 07:29:20,736 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-20 07:29:20,936 Thread-6 app.api.service ERROR While processing in Function upload_image, we got <class 'FileNotFoundError'> Exception. 
+ '[Errno 2] No such file' in Line Number 109  File Name service.py
+2023-10-20 07:30:59,152 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-20 07:30:59,361 Thread-6 app.api.service ERROR While processing in Function upload_image, we got <class 'FileNotFoundError'> Exception. 
+ '[Errno 2] No such file' in Line Number 109  File Name service.py
+2023-10-20 07:31:27,014 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-20 07:31:27,629 Thread-6 app.api.service INFO Image uploaded to 'temp/10181.jpeg' on the remote server
+2023-10-26 11:20:25,034 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-26 11:20:26,546 Thread-6 app.api.service INFO Image uploaded to 'temp/10181.jpeg' on the remote server
+2023-10-26 11:22:11,714 Thread-9 app.api.service INFO Connection to remote server created successfully
+2023-10-26 11:22:44,046 Thread-12 app.api.service INFO Connection to remote server created successfully
+2023-10-27 11:26:22,986 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-10-27 11:26:23,501 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-10-27 11:26:37,585 Thread-9 app.api.service INFO Connection to remote server created successfully
+2023-10-27 11:26:37,743 Thread-9 app.api.service ERROR While processing in Function return_image, we got <class 'FileNotFoundError'> Exception. 
+ '[Errno 2] No such file' in Line Number 82  File Name service.py
+2023-10-27 11:27:17,876 Thread-12 app.api.service INFO Connection to remote server created successfully
+2023-11-14 07:07:52,025 MainThread perf INFO Starting loading organisims from owl file 
+2023-11-14 07:10:54,038 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-11-14 07:14:31,972 MainThread __main__ INFO Found 2264415 subclasses of ['cellular organisms']
+2023-11-14 07:14:57,434 MainThread __main__ INFO Found 2016736 nodes with has_rank ending in species
+2023-11-14 07:15:40,192 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-11-14 07:15:42,061 MainThread __main__ INFO Len all: 2016736
+2023-11-14 07:15:42,062 MainThread __main__ INFO len good: 1961813
+2023-11-14 07:15:42,062 MainThread __main__ INFO len bad: 54924
+2023-11-14 07:15:44,275 MainThread perf INFO In elapsed_time=0:07:52.248187, Done loading organisims from owl file  
+2023-11-14 07:15:44,276 MainThread perf INFO Starting inserting organisms data into database
+2023-11-14 07:15:46,769 MainThread app.api.service INFO Connection to database created successfully
+2023-11-14 07:32:44,089 MainThread perf INFO Starting loading organisims from owl file 
+2023-11-14 07:35:15,728 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-11-14 07:38:30,262 MainThread __main__ INFO Found 2264415 subclasses of ['cellular organisms']
+2023-11-14 07:38:59,131 MainThread __main__ INFO Found 2016736 nodes with has_rank ending in species
+2023-11-14 07:39:48,289 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-11-14 07:39:50,297 MainThread __main__ INFO Len all: 2016736
+2023-11-14 07:39:50,297 MainThread __main__ INFO len good: 1961813
+2023-11-14 07:39:50,297 MainThread __main__ INFO len bad: 54924
+2023-11-14 07:39:53,860 MainThread perf INFO In elapsed_time=0:07:09.766194, Done loading organisims from owl file  
+2023-11-14 07:39:53,862 MainThread perf INFO Starting inserting organisms data into database
+2023-11-14 07:39:56,777 MainThread app.api.service INFO Connection to database created successfully
+2023-11-14 07:40:19,622 MainThread perf INFO In elapsed_time=0:00:25.759632, Done inserting organisms data into database 
+2023-11-14 07:40:19,622 MainThread perf INFO Starting inserting substratum data into database
+2023-11-14 07:40:19,630 MainThread app.api.service INFO Connection to database created successfully
+2023-11-14 07:40:19,652 MainThread perf INFO In elapsed_time=0:00:00.029691, Done inserting substratum data into database 
+2023-11-14 07:40:19,652 MainThread perf INFO Starting inserting vessels data into database
+2023-11-14 07:40:19,653 MainThread app.api.service INFO Connection to database created successfully
+2023-11-14 07:40:19,656 MainThread perf INFO In elapsed_time=0:00:00.003735, Done inserting vessels data into database 
+2023-11-14 07:40:19,656 MainThread perf INFO Starting inserting labs data into database
+2023-11-14 07:40:19,657 MainThread app.api.service INFO Connection to database created successfully
+2023-11-14 07:40:19,659 MainThread perf INFO In elapsed_time=0:00:00.002631, Done inserting labs data into database 
+2023-11-14 07:42:54,372 Thread-1 app.api.service INFO Connection to remote server created successfully
+2023-11-14 07:42:55,284 Thread-1 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-14 07:43:03,352 Thread-4 app.api.service INFO Connection to remote server created successfully
+2023-11-14 07:45:50,600 MainThread perf INFO Starting loading organisims from owl file 
+2023-11-14 07:48:58,562 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-11-14 07:52:35,664 MainThread __main__ INFO Found 2264415 subclasses of ['cellular organisms']
+2023-11-14 07:53:09,459 MainThread __main__ INFO Found 2016736 nodes with has_rank ending in species
+2023-11-14 07:54:11,736 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-11-14 07:54:13,767 MainThread __main__ INFO Len all: 2016736
+2023-11-14 07:54:13,767 MainThread __main__ INFO len good: 1961813
+2023-11-14 07:54:13,767 MainThread __main__ INFO len bad: 54924
+2023-11-14 07:54:18,172 MainThread perf INFO In elapsed_time=0:08:27.566810, Done loading organisims from owl file  
+2023-11-14 07:54:18,174 MainThread perf INFO Starting inserting organisms data into database
+2023-11-14 07:54:21,374 MainThread app.api.service INFO Connection to database created successfully
+2023-11-14 07:56:02,104 MainThread perf INFO In elapsed_time=0:01:43.928409, Done inserting organisms data into database 
+2023-11-14 07:56:02,105 MainThread perf INFO Starting inserting substratum data into database
+2023-11-14 07:56:02,135 MainThread app.api.service INFO Connection to database created successfully
+2023-11-14 07:56:02,152 MainThread perf INFO In elapsed_time=0:00:00.046905, Done inserting substratum data into database 
+2023-11-14 07:56:02,152 MainThread perf INFO Starting inserting vessels data into database
+2023-11-14 07:56:02,154 MainThread app.api.service INFO Connection to database created successfully
+2023-11-14 07:56:02,156 MainThread perf INFO In elapsed_time=0:00:00.004042, Done inserting vessels data into database 
+2023-11-14 07:56:02,156 MainThread perf INFO Starting inserting labs data into database
+2023-11-14 07:56:02,158 MainThread app.api.service INFO Connection to database created successfully
+2023-11-14 07:56:02,159 MainThread perf INFO In elapsed_time=0:00:00.003247, Done inserting labs data into database 
+2023-11-14 15:36:42,552 Thread-1 app.api.process ERROR Exception on / [GET]
+'Traceback (most recent call last):\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/routes.py", line 6, in home\n    return render_template("home.html")\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 151, in render_template\n    template = app.jinja_env.get_or_select_template(template_name_or_list)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1081, in get_or_select_template\n    return self.get_template(template_name_or_list, parent, globals)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1010, in get_template\n    return self._load_template(name, globals)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 969, in _load_template\n    template = self.loader.load(self, name, self.make_globals(globals))\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/loaders.py", line 138, in load\n    code = environment.compile(source, name, filename)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 768, in compile\n    self.handle_exception(source=source_hint)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception\n    raise rewrite_traceback_stack(source=source)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/templates/home.html", line 2, in template\n    %}\njinja2.exceptions.TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: \'endblock\'. The innermost block that needs to be closed is \'block\'.'
+2023-11-16 06:46:45,681 Thread-2 app.api.process ERROR Exception on /search [GET]
+'Traceback (most recent call last):\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/service.py", line 126, in search\n    return render_template(\'search.html\')\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 152, in render_template\n    return _render(app, template, context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 133, in _render\n    rv = template.render(context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render\n    self.environment.handle_exception()\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception\n    raise rewrite_traceback_stack(source=source)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/templates/search.html", line 12, in top-level template code\n    <a href="{{ url_for(\'about\') }}">About</a>\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1071, in url_for\n    return self.handle_url_build_error(error, endpoint, values)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1060, in url_for\n    rv = url_adapter.build(  # type: ignore[union-attr]\n  File "/opt/anaconda3/lib/python3.9/site-packages/werkzeug/routing/map.py", line 919, in build\n    raise BuildError(endpoint, values, method, self)\nwerkzeug.routing.exceptions.BuildError: Could not build url for endpoint \'about\'. Did you mean \'auth.logout\' instead?'
+2023-11-16 06:47:39,382 Thread-1 app.api.process ERROR Exception on /search [GET]
+'Traceback (most recent call last):\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/service.py", line 126, in search\n    return render_template(\'search.html\')\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 152, in render_template\n    return _render(app, template, context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 133, in _render\n    rv = template.render(context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render\n    self.environment.handle_exception()\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception\n    raise rewrite_traceback_stack(source=source)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/templates/search.html", line 12, in top-level template code\n    <a href="{{ url_for(\'about\') }}">About</a>\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1071, in url_for\n    return self.handle_url_build_error(error, endpoint, values)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1060, in url_for\n    rv = url_adapter.build(  # type: ignore[union-attr]\n  File "/opt/anaconda3/lib/python3.9/site-packages/werkzeug/routing/map.py", line 919, in build\n    raise BuildError(endpoint, values, method, self)\nwerkzeug.routing.exceptions.BuildError: Could not build url for endpoint \'about\'. Did you mean \'auth.logout\' instead?'
+2023-11-16 06:50:03,286 Thread-4 app.api.service ERROR While processing in Function return_image, we got <class 'werkzeug.exceptions.UnsupportedMediaType'> Exception. 
+ '415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.' in Line Number 74  File Name service.py
+2023-11-16 06:50:03,288 Thread-4 app.api.process ERROR Exception on /get_image [GET]
+'Traceback (most recent call last):\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/service.py", line 90, in return_image\n    sftp.close()\nUnboundLocalError: local variable \'sftp\' referenced before assignment'
+2023-11-16 06:50:31,209 Thread-5 app.api.service INFO Connection to remote server created successfully
+2023-11-16 06:50:31,798 Thread-5 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-16 06:50:48,598 Thread-8 app.api.service INFO Connection to remote server created successfully
+2023-11-16 06:50:49,226 Thread-8 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-16 06:50:53,552 Thread-11 app.api.service INFO Connection to remote server created successfully
+2023-11-16 07:07:11,474 Thread-1 app.api.process ERROR Exception on /search [GET]
+'Traceback (most recent call last):\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/service.py", line 126, in search\n    return render_template(\'search.html\')\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 152, in render_template\n    return _render(app, template, context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 133, in _render\n    rv = template.render(context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render\n    self.environment.handle_exception()\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception\n    raise rewrite_traceback_stack(source=source)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/templates/search.html", line 12, in top-level template code\n    <!-- <a href="{{ url_for(\'about\') }}">About</a>\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1071, in url_for\n    return self.handle_url_build_error(error, endpoint, values)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1060, in url_for\n    rv = url_adapter.build(  # type: ignore[union-attr]\n  File "/opt/anaconda3/lib/python3.9/site-packages/werkzeug/routing/map.py", line 919, in build\n    raise BuildError(endpoint, values, method, self)\nwerkzeug.routing.exceptions.BuildError: Could not build url for endpoint \'about\'. Did you mean \'auth.logout\' instead?'
+2023-11-16 07:34:33,049 Thread-1 app.api.process ERROR Exception on /search [GET]
+'Traceback (most recent call last):\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/service.py", line 126, in search\n    return render_template(\'search.html\')\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 152, in render_template\n    return _render(app, template, context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 133, in _render\n    rv = template.render(context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render\n    self.environment.handle_exception()\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception\n    raise rewrite_traceback_stack(source=source)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/templates/search.html", line 7, in top-level template code\n    <link rel="stylesheet" href="{{ url_for(\'static/css\', filename=\'styles.css\') }}">\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1071, in url_for\n    return self.handle_url_build_error(error, endpoint, values)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1060, in url_for\n    rv = url_adapter.build(  # type: ignore[union-attr]\n  File "/opt/anaconda3/lib/python3.9/site-packages/werkzeug/routing/map.py", line 919, in build\n    raise BuildError(endpoint, values, method, self)\nwerkzeug.routing.exceptions.BuildError: Could not build url for endpoint \'static/css\' with values [\'filename\']. Did you mean \'static\' instead?'
+2023-11-16 07:36:43,977 Thread-3 app.api.process ERROR Exception on /search [GET]
+'Traceback (most recent call last):\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/service.py", line 126, in search\n    return render_template(\'search.html\')\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 152, in render_template\n    return _render(app, template, context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 133, in _render\n    rv = template.render(context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render\n    self.environment.handle_exception()\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception\n    raise rewrite_traceback_stack(source=source)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/templates/search.html", line 7, in top-level template code\n    <link rel="stylesheet" href="{{ url_for(\'static/css\', filename=\'styles.css\') }}">\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1071, in url_for\n    return self.handle_url_build_error(error, endpoint, values)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1060, in url_for\n    rv = url_adapter.build(  # type: ignore[union-attr]\n  File "/opt/anaconda3/lib/python3.9/site-packages/werkzeug/routing/map.py", line 919, in build\n    raise BuildError(endpoint, values, method, self)\nwerkzeug.routing.exceptions.BuildError: Could not build url for endpoint \'static/css\' with values [\'filename\']. Did you mean \'static\' instead?'
+2023-11-16 07:39:08,326 Thread-1 app.api.process ERROR Exception on /search [GET]
+'Traceback (most recent call last):\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/service.py", line 126, in search\n    return render_template(\'search.html\')\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 152, in render_template\n    return _render(app, template, context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 133, in _render\n    rv = template.render(context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render\n    self.environment.handle_exception()\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception\n    raise rewrite_traceback_stack(source=source)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/templates/search.html", line 12, in top-level template code\n    <a href="{{ url_for(\'about\') }}">About</a>\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1071, in url_for\n    return self.handle_url_build_error(error, endpoint, values)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1060, in url_for\n    rv = url_adapter.build(  # type: ignore[union-attr]\n  File "/opt/anaconda3/lib/python3.9/site-packages/werkzeug/routing/map.py", line 919, in build\n    raise BuildError(endpoint, values, method, self)\nwerkzeug.routing.exceptions.BuildError: Could not build url for endpoint \'about\'. Did you mean \'auth.logout\' instead?'
+2023-11-16 07:39:36,166 Thread-1 app.api.process ERROR Exception on /search [GET]
+'Traceback (most recent call last):\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/service.py", line 126, in search\n    return render_template(\'search.html\')\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 152, in render_template\n    return _render(app, template, context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 133, in _render\n    rv = template.render(context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render\n    self.environment.handle_exception()\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception\n    raise rewrite_traceback_stack(source=source)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/templates/search.html", line 12, in top-level template code\n    <a href="{{ url_for(\'about\') }}">About</a>\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1071, in url_for\n    return self.handle_url_build_error(error, endpoint, values)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1060, in url_for\n    rv = url_adapter.build(  # type: ignore[union-attr]\n  File "/opt/anaconda3/lib/python3.9/site-packages/werkzeug/routing/map.py", line 919, in build\n    raise BuildError(endpoint, values, method, self)\nwerkzeug.routing.exceptions.BuildError: Could not build url for endpoint \'about\'. Did you mean \'auth.logout\' instead?'
+2023-11-16 07:40:40,778 Thread-1 app.api.process ERROR Exception on /search [GET]
+'Traceback (most recent call last):\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/service.py", line 126, in search\n    return render_template(\'search.html\')\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 152, in render_template\n    return _render(app, template, context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 133, in _render\n    rv = template.render(context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render\n    self.environment.handle_exception()\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception\n    raise rewrite_traceback_stack(source=source)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/templates/search.html", line 12, in top-level template code\n    <a href="{{ url_for(\'about\') }}">About</a>\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1071, in url_for\n    return self.handle_url_build_error(error, endpoint, values)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1060, in url_for\n    rv = url_adapter.build(  # type: ignore[union-attr]\n  File "/opt/anaconda3/lib/python3.9/site-packages/werkzeug/routing/map.py", line 919, in build\n    raise BuildError(endpoint, values, method, self)\nwerkzeug.routing.exceptions.BuildError: Could not build url for endpoint \'about\'. Did you mean \'auth.logout\' instead?'
+2023-11-16 07:45:08,000 Thread-1 app.api.process ERROR Exception on /search [GET]
+'Traceback (most recent call last):\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 869, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 867, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 852, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/service.py", line 126, in search\n    return render_template(\'search.html\')\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 152, in render_template\n    return _render(app, template, context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/templating.py", line 133, in _render\n    rv = template.render(context)\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render\n    self.environment.handle_exception()\n  File "/opt/anaconda3/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception\n    raise rewrite_traceback_stack(source=source)\n  File "/Users/ananthchalamuru/Desktop/biofilm/app/api/templates/search.html", line 7, in top-level template code\n    <link rel="stylesheet" href="{{ url_for(\'static/css\', filename=\'styles.css\') }}">\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1071, in url_for\n    return self.handle_url_build_error(error, endpoint, values)\n  File "/opt/anaconda3/lib/python3.9/site-packages/flask/app.py", line 1060, in url_for\n    rv = url_adapter.build(  # type: ignore[union-attr]\n  File "/opt/anaconda3/lib/python3.9/site-packages/werkzeug/routing/map.py", line 919, in build\n    raise BuildError(endpoint, values, method, self)\nwerkzeug.routing.exceptions.BuildError: Could not build url for endpoint \'static/css\' with values [\'filename\']. Did you mean \'static\' instead?'
+2023-11-16 12:11:13,140 Thread-8 app.api.service INFO Connection to remote server created successfully
+2023-11-16 12:11:13,769 Thread-8 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-29 09:07:29,440 Thread-19 app.api.service INFO Connection to remote server created successfully
+2023-11-29 09:07:30,406 Thread-19 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-29 11:31:45,630 Thread-10 app.api.service INFO Connection to remote server created successfully
+2023-11-29 11:31:46,214 Thread-10 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-29 11:33:14,579 Thread-15 app.api.service INFO Connection to remote server created successfully
+2023-11-29 11:33:16,551 Thread-15 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-29 11:34:41,166 Thread-20 app.api.service INFO Connection to remote server created successfully
+2023-11-29 11:34:41,767 Thread-20 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-29 11:34:44,016 Thread-23 app.api.service INFO Connection to remote server created successfully
+2023-11-29 11:34:44,619 Thread-23 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-29 11:34:57,368 Thread-26 app.api.service INFO Connection to remote server created successfully
+2023-11-29 11:34:57,929 Thread-26 app.api.service INFO Image uploaded to '/data/biofilm/10182.jpeg' on the remote server
+2023-11-29 11:54:54,221 Thread-42 app.api.service INFO Connection to remote server created successfully
+2023-11-29 11:54:54,777 Thread-42 app.api.service INFO Image uploaded to '/data/biofilm/10183.jpeg' on the remote server
+2023-11-29 16:27:22,789 Thread-79 app.api.service INFO Connection to remote server created successfully
+2023-11-29 16:27:22,991 Thread-79 app.api.service ERROR While processing in Function submitform, we got <class 'OSError'> Exception. 
+ 'Failure' in Line Number 164  File Name service.py
+2023-11-29 16:31:56,411 Thread-10 app.api.service INFO Connection to remote server created successfully
+2023-11-29 16:31:57,034 Thread-10 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-30 07:42:03,717 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-11-30 07:42:04,543 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-30 07:43:59,979 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-11-30 07:44:00,721 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-11-30 07:44:29,436 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-11-30 07:44:30,113 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/10182.jpeg' on the remote server
+2023-11-30 08:37:47,613 MainThread perf INFO Starting loading organisims from owl file 
+2023-11-30 08:41:37,093 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-11-30 08:45:29,046 MainThread __main__ INFO Found 2264415 subclasses of ['cellular organisms']
+2023-11-30 08:46:18,367 MainThread __main__ INFO Found 2016736 nodes with has_rank ending in species
+2023-11-30 08:46:47,407 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-11-30 08:46:49,411 MainThread __main__ INFO Len all: 2016736
+2023-11-30 08:46:49,412 MainThread __main__ INFO len good: 1961813
+2023-11-30 08:46:49,412 MainThread __main__ INFO len bad: 54924
+2023-11-30 08:46:53,469 MainThread perf INFO In elapsed_time=0:09:05.851740, Done loading organisims from owl file  
+2023-11-30 08:46:53,470 MainThread perf INFO Starting inserting organisms data into database
+2023-11-30 08:47:54,507 MainThread app.api.service INFO Connection to database created successfully
+2023-11-30 08:47:54,630 MainThread __main__ ERROR While processing in Function DB_start.load_organisms, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'NCBITaxon_1001001' for key 'organisms.PRIMARY'")' in Line Number 101  File Name db_start.py
+2023-11-30 08:47:54,739 MainThread perf INFO In elapsed_time=0:01:01.268798, Done inserting organisms data into database 
+2023-11-30 08:47:54,740 MainThread perf INFO Starting inserting substratum data into database
+2023-11-30 08:47:54,742 MainThread app.api.service INFO Connection to database created successfully
+2023-11-30 08:47:54,786 MainThread __main__ ERROR While processing in Function DB_start.load_substratum, we got <class 'pymysql.err.OperationalError'> Exception. 
+ '(2013, 'Lost connection to MySQL server during query')' in Line Number 119  File Name db_start.py
+2023-11-30 08:47:54,786 MainThread perf INFO In elapsed_time=0:00:00.046257, Done inserting substratum data into database 
+2023-11-30 08:47:54,786 MainThread perf INFO Starting inserting vessels data into database
+2023-11-30 08:47:54,791 MainThread app.api.service ERROR While processing in Function db_conn, we got <class 'pymysql.err.OperationalError'> Exception. 
+ '(2003, "Can't connect to MySQL server on 'localhost' ([Errno 61] Connection refused)")' in Line Number 19  File Name service.py
+2023-11-30 08:47:54,791 MainThread __main__ ERROR While processing in Function DB_start.load_vessels, we got <class 'AttributeError'> Exception. 
+ ''NoneType' object has no attribute 'cursor'' in Line Number 136  File Name db_start.py
+2023-11-30 08:47:54,791 MainThread perf INFO In elapsed_time=0:00:00.004961, Done inserting vessels data into database 
+2023-11-30 08:47:54,791 MainThread perf INFO Starting inserting labs data into database
+2023-11-30 08:47:54,792 MainThread app.api.service ERROR While processing in Function db_conn, we got <class 'pymysql.err.OperationalError'> Exception. 
+ '(2003, "Can't connect to MySQL server on 'localhost' ([Errno 61] Connection refused)")' in Line Number 19  File Name service.py
+2023-11-30 08:47:54,792 MainThread __main__ ERROR While processing in Function DB_start.load_labs, we got <class 'AttributeError'> Exception. 
+ ''NoneType' object has no attribute 'cursor'' in Line Number 154  File Name db_start.py
+2023-11-30 08:47:54,792 MainThread perf INFO In elapsed_time=0:00:00.001321, Done inserting labs data into database 
+2023-11-30 09:15:04,926 MainThread perf INFO Starting loading organisims from owl file 
+2023-11-30 09:18:29,894 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-11-30 09:20:55,197 Thread-9 app.api.service INFO Connection to remote server created successfully
+2023-11-30 09:20:55,864 Thread-9 app.api.service INFO Image uploaded to '/data/biofilm/10183.jpeg' on the remote server
+2023-11-30 09:22:12,752 MainThread __main__ INFO Found 2264415 subclasses of ['cellular organisms']
+2023-11-30 09:22:57,845 MainThread __main__ INFO Found 2016736 nodes with has_rank ending in species
+2023-11-30 09:23:21,752 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-11-30 09:23:23,642 MainThread __main__ INFO Len all: 2016736
+2023-11-30 09:23:23,642 MainThread __main__ INFO len good: 1961813
+2023-11-30 09:23:23,642 MainThread __main__ INFO len bad: 54924
+2023-11-30 09:23:26,981 MainThread perf INFO In elapsed_time=0:08:22.052300, Done loading organisims from owl file  
+2023-11-30 09:23:26,982 MainThread perf INFO Starting inserting organisms data into database
+2023-11-30 09:24:15,538 MainThread app.api.service INFO Connection to database created successfully
+2023-11-30 09:24:34,479 MainThread perf INFO In elapsed_time=0:01:07.496073, Done inserting organisms data into database 
+2023-11-30 09:24:34,481 MainThread perf INFO Starting inserting substratum data into database
+2023-11-30 09:24:34,494 MainThread app.api.service INFO Connection to database created successfully
+2023-11-30 09:24:34,501 MainThread perf INFO In elapsed_time=0:00:00.020802, Done inserting substratum data into database 
+2023-11-30 09:24:34,501 MainThread perf INFO Starting inserting vessels data into database
+2023-11-30 09:24:34,503 MainThread app.api.service INFO Connection to database created successfully
+2023-11-30 09:24:34,506 MainThread perf INFO In elapsed_time=0:00:00.004257, Done inserting vessels data into database 
+2023-11-30 09:24:34,506 MainThread perf INFO Starting inserting labs data into database
+2023-11-30 09:24:34,508 MainThread app.api.service INFO Connection to database created successfully
+2023-11-30 09:24:34,510 MainThread perf INFO In elapsed_time=0:00:00.003955, Done inserting labs data into database 
+2023-12-03 06:16:45,743 Thread-26 app.api.service INFO Connection to remote server created successfully
+2023-12-03 06:16:46,304 Thread-26 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-12-03 06:17:22,914 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-12-03 06:17:23,478 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-12-03 07:11:09,282 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-12-03 07:11:09,913 Thread-6 app.api.service INFO Connection to database created successfully
+2023-12-03 07:11:09,932 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.OperationalError'> Exception. 
+ '(1136, "Column count doesn't match value count at row 1")' in Line Number 120  File Name service.py
+2023-12-03 07:30:02,821 Thread-9 app.api.service INFO Connection to remote server created successfully
+2023-12-03 07:30:03,455 Thread-9 app.api.service INFO Connection to database created successfully
+2023-12-03 07:30:03,459 Thread-9 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-12-03 07:54:26,247 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-12-03 07:54:26,788 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/10186.jpeg' on the remote server
+2023-12-03 07:58:25,805 Thread-12 app.api.service INFO Connection to remote server created successfully
+2023-12-03 07:58:26,452 Thread-12 app.api.service INFO Image uploaded to '/data/biofilm/10190.jpeg' on the remote server
+2023-12-03 08:12:32,540 Thread-34 app.api.service INFO Connection to remote server created successfully
+2023-12-03 08:12:33,216 Thread-34 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-12-03 08:13:09,656 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-12-03 08:13:10,264 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-12-03 08:15:45,445 Thread-10 app.api.service INFO Connection to remote server created successfully
+2023-12-03 08:15:46,047 Thread-10 app.api.service INFO Image uploaded to '/data/biofilm/10184.jpeg' on the remote server
+2023-12-03 12:00:05,190 Thread-69 app.api.service INFO Connection to remote server created successfully
+2023-12-03 12:00:05,862 Thread-69 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-12-03 12:02:15,748 Thread-78 app.api.service INFO Connection to remote server created successfully
+2023-12-03 12:02:16,293 Thread-78 app.api.service INFO Image uploaded to '/data/biofilm/10183.jpeg' on the remote server
+2023-12-12 07:40:39,692 Thread-14 app.api.service INFO Connection to remote server created successfully
+2023-12-12 07:40:40,233 Thread-14 app.api.service INFO Connection to database created successfully
+2023-12-12 07:40:40,234 Thread-14 app.api.service ERROR While processing in Function submitform, we got <class 'TypeError'> Exception. 
+ 'not all arguments converted during string formatting' in Line Number 121  File Name service.py
+2023-12-12 07:48:25,304 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-12-12 07:48:26,960 Thread-6 app.api.service INFO Connection to database created successfully
+2023-12-12 07:48:26,967 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1452, 'Cannot add or update a child row: a foreign key constraint fails (`biofilm`.`experiment`, CONSTRAINT `experiment_ibfk_1` FOREIGN KEY (`lab_owner`) REFERENCES `labs` (`lab_owner`))')' in Line Number 121  File Name service.py
+2023-12-12 07:49:04,373 MainThread perf INFO Starting loading organisims from owl file 
+2023-12-12 07:52:09,435 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-12-12 07:55:44,364 MainThread __main__ INFO Found 2264415 subclasses of ['cellular organisms']
+2023-12-12 07:56:27,794 MainThread __main__ INFO Found 2016736 nodes with has_rank ending in species
+2023-12-12 07:56:51,344 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-12-12 07:56:53,251 MainThread __main__ INFO Len all: 2016736
+2023-12-12 07:56:53,251 MainThread __main__ INFO len good: 1961813
+2023-12-12 07:56:53,251 MainThread __main__ INFO len bad: 54924
+2023-12-12 07:56:55,839 MainThread perf INFO In elapsed_time=0:07:51.462618, Done loading organisims from owl file  
+2023-12-12 07:56:55,840 MainThread perf INFO Starting inserting organisms data into database
+2023-12-12 07:57:41,624 MainThread app.api.service INFO Connection to database created successfully
+2023-12-12 07:58:00,658 MainThread perf INFO In elapsed_time=0:01:04.816713, Done inserting organisms data into database 
+2023-12-12 07:58:00,658 MainThread perf INFO Starting inserting substratum data into database
+2023-12-12 07:58:00,662 MainThread app.api.service INFO Connection to database created successfully
+2023-12-12 07:58:00,663 MainThread perf INFO In elapsed_time=0:00:00.005034, Done inserting substratum data into database 
+2023-12-12 07:58:00,663 MainThread perf INFO Starting inserting vessels data into database
+2023-12-12 07:58:00,664 MainThread app.api.service INFO Connection to database created successfully
+2023-12-12 07:58:00,671 MainThread perf INFO In elapsed_time=0:00:00.007577, Done inserting vessels data into database 
+2023-12-12 07:58:00,671 MainThread perf INFO Starting inserting labs data into database
+2023-12-12 07:58:00,674 MainThread app.api.service INFO Connection to database created successfully
+2023-12-12 07:58:00,676 MainThread perf INFO In elapsed_time=0:00:00.004505, Done inserting labs data into database 
+2023-12-12 09:47:23,053 Thread-9 app.api.service INFO Connection to remote server created successfully
+2023-12-12 09:47:23,617 Thread-9 app.api.service INFO Connection to database created successfully
+2023-12-12 09:47:23,624 Thread-9 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1452, 'Cannot add or update a child row: a foreign key constraint fails (`biofilm`.`experiment`, CONSTRAINT `experiment_ibfk_2` FOREIGN KEY (`organism_ncbi_id`) REFERENCES `organisms` (`ncbi_id`))')' in Line Number 121  File Name service.py
+2023-12-12 09:54:07,159 Thread-12 app.api.service INFO Connection to remote server created successfully
+2023-12-12 09:54:07,679 Thread-12 app.api.service INFO Connection to database created successfully
+2023-12-12 09:54:07,684 Thread-12 app.api.service INFO Image uploaded to '/data/biofilm/10182.jpeg' on the remote server
+2023-12-12 10:17:14,966 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-12-12 10:17:15,500 Thread-6 app.api.service INFO Connection to database created successfully
+2023-12-12 10:17:15,506 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.OperationalError'> Exception. 
+ '(3140, 'Invalid JSON text: "The document root must not be followed by other values." at position 1 in value for column \'image_data.microscope_settings\'.')' in Line Number 124  File Name service.py
+2023-12-12 10:52:06,878 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-12-12 10:52:07,849 Thread-6 app.api.service INFO Connection to database created successfully
+2023-12-12 10:52:07,853 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.OperationalError'> Exception. 
+ '(3140, 'Invalid JSON text: "The document root must not be followed by other values." at position 1 in value for column \'image_data.microscope_settings\'.')' in Line Number 123  File Name service.py
+2023-12-12 11:22:56,356 Thread-11 app.api.service INFO Connection to remote server created successfully
+2023-12-12 11:22:56,862 Thread-11 app.api.service ERROR While processing in Function submitform, we got <class 'IndexError'> Exception. 
+ 'list index out of range' in Line Number 118  File Name service.py
+2023-12-12 11:27:53,845 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-12-12 11:27:55,874 Thread-6 app.api.service INFO Connection to database created successfully
+2023-12-12 11:27:55,888 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/10183.jpeg' on the remote server
+2023-12-12 12:12:36,357 Thread-42 app.api.service INFO Connection to remote server created successfully
+2023-12-12 12:12:36,877 Thread-42 app.api.service ERROR While processing in Function submitform, we got <class 'IndexError'> Exception. 
+ 'list index out of range' in Line Number 118  File Name service.py
+2023-12-13 17:36:22,014 MainThread perf INFO Starting loading organisims from owl file 
+2023-12-13 17:39:29,806 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-12-13 17:43:08,273 MainThread __main__ INFO Found 2283184 subclasses of ['cellular organisms']
+2023-12-13 17:43:52,278 MainThread __main__ INFO Found 2033658 nodes with has_rank ending in species
+2023-12-13 17:44:16,669 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-12-13 17:44:18,606 MainThread __main__ INFO Len all: 2033658
+2023-12-13 17:44:18,607 MainThread __main__ INFO len good: 1978739
+2023-12-13 17:44:18,608 MainThread __main__ INFO len bad: 54920
+2023-12-13 17:44:21,226 MainThread perf INFO In elapsed_time=0:07:59.206383, Done loading organisims from owl file  
+2023-12-13 17:44:21,228 MainThread perf INFO Starting inserting organisms data into database
+2023-12-13 17:45:10,708 MainThread app.api.service INFO Connection to database created successfully
+2023-12-13 17:45:33,138 MainThread perf INFO In elapsed_time=0:01:11.909510, Done inserting organisms data into database 
+2023-12-13 17:45:33,138 MainThread perf INFO Starting inserting substratum data into database
+2023-12-13 17:45:33,143 MainThread app.api.service INFO Connection to database created successfully
+2023-12-13 17:45:33,153 MainThread perf INFO In elapsed_time=0:00:00.014114, Done inserting substratum data into database 
+2023-12-13 17:45:33,153 MainThread perf INFO Starting inserting vessels data into database
+2023-12-13 17:45:33,154 MainThread app.api.service INFO Connection to database created successfully
+2023-12-13 17:45:33,156 MainThread perf INFO In elapsed_time=0:00:00.003742, Done inserting vessels data into database 
+2023-12-13 17:45:33,157 MainThread perf INFO Starting inserting labs data into database
+2023-12-13 17:45:33,158 MainThread app.api.service INFO Connection to database created successfully
+2023-12-13 17:45:33,160 MainThread perf INFO In elapsed_time=0:00:00.003632, Done inserting labs data into database 
+2023-12-13 17:47:03,119 Thread-11 app.api.service INFO Connection to remote server created successfully
+2023-12-13 17:47:03,684 Thread-11 app.api.service INFO Connection to database created successfully
+2023-12-13 17:47:03,691 Thread-11 app.api.service INFO Image uploaded to '/data/biofilm/10188.jpeg' on the remote server
+2023-12-13 17:49:20,632 Thread-23 app.api.service INFO Connection to remote server created successfully
+2023-12-13 17:49:21,249 Thread-23 app.api.service INFO Connection to database created successfully
+2023-12-13 17:49:21,260 Thread-23 app.api.service INFO Image uploaded to '/data/biofilm/10189.jpeg' on the remote server
+2023-12-13 17:52:42,423 Thread-29 app.api.service INFO Connection to remote server created successfully
+2023-12-13 17:52:43,031 Thread-29 app.api.service ERROR While processing in Function submitform, we got <class 'IndexError'> Exception. 
+ 'list index out of range' in Line Number 118  File Name service.py
+2023-12-13 17:57:29,978 Thread-9 app.api.service INFO Connection to remote server created successfully
+2023-12-13 17:57:30,667 Thread-9 app.api.service INFO Connection to database created successfully
+2023-12-13 17:57:30,679 Thread-9 app.api.service INFO Image uploaded to '/data/biofilm/10190.jpeg' on the remote server
+2023-12-13 18:01:42,019 Thread-15 app.api.service INFO Connection to remote server created successfully
+2023-12-13 18:01:42,655 Thread-15 app.api.service INFO Connection to database created successfully
+2023-12-13 18:01:42,660 Thread-15 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'test_experiment1' for key 'experiment.PRIMARY'")' in Line Number 122  File Name service.py
+2023-12-13 18:08:13,293 Thread-9 app.api.service INFO Connection to remote server created successfully
+2023-12-13 18:08:13,861 Thread-9 app.api.service INFO Connection to database created successfully
+2023-12-13 18:08:13,863 Thread-9 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'test_experiment1' for key 'experiment.PRIMARY'")' in Line Number 122  File Name service.py
+2023-12-13 18:10:19,962 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-12-13 18:10:20,574 Thread-6 app.api.service INFO Connection to database created successfully
+2023-12-13 18:10:20,581 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/10184.jpeg' on the remote server
+2023-12-13 18:27:52,103 Thread-12 app.api.service ERROR While processing in Function submitform, we got <class 'TypeError'> Exception. 
+ 'czitojpeg() takes 0 positional arguments but 1 was given' in Line Number 106  File Name service.py
+2023-12-13 19:03:49,160 Thread-9 app.api.service ERROR While processing in Function submitform, we got <class 'UnboundLocalError'> Exception. 
+ 'local variable 'filename' referenced before assignment' in Line Number 112  File Name service.py
+2023-12-13 19:04:50,547 Thread-6 app.api.service INFO Connection to remote server created successfully
+2023-12-13 19:04:51,164 Thread-6 app.api.service INFO Connection to database created successfully
+2023-12-13 19:04:51,176 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/10193.jpeg' on the remote server
+2023-12-14 19:01:29,877 Thread-14 app.api.service INFO Connection to remote server created successfully
+2023-12-14 19:01:30,454 Thread-14 app.api.service INFO Connection to database created successfully
+2023-12-14 19:01:30,468 Thread-14 app.api.service INFO Image uploaded to '/data/biofilm/10194.jpeg' on the remote server
+2023-12-14 19:02:51,742 Thread-17 app.api.service INFO Connection to remote server created successfully
+2023-12-14 19:02:52,314 Thread-17 app.api.service INFO Connection to database created successfully
+2023-12-14 19:02:52,319 Thread-17 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'test_experiment1' for key 'experiment.PRIMARY'")' in Line Number 133  File Name service.py
+2023-12-14 19:06:30,202 Thread-20 app.api.service INFO Connection to remote server created successfully
+2023-12-14 19:06:30,800 Thread-20 app.api.service INFO Connection to database created successfully
+2023-12-14 19:06:30,806 Thread-20 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1452, 'Cannot add or update a child row: a foreign key constraint fails (`biofilm`.`experiment`, CONSTRAINT `experiment_ibfk_2` FOREIGN KEY (`organism_ncbi_id`) REFERENCES `organisms` (`ncbi_id`))')' in Line Number 133  File Name service.py
+2023-12-28 06:27:47,875 MainThread perf INFO Starting loading organisims from owl file 
+2023-12-28 06:30:40,021 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-12-28 06:34:28,473 MainThread __main__ INFO Found 2283184 subclasses of ['cellular organisms']
+2023-12-28 06:34:53,218 MainThread __main__ INFO Found 2033658 nodes with has_rank ending in species
+2023-12-28 06:35:42,890 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-12-28 06:35:44,788 MainThread __main__ INFO Len all: 2033658
+2023-12-28 06:35:44,788 MainThread __main__ INFO len good: 1978739
+2023-12-28 06:35:44,788 MainThread __main__ INFO len bad: 54920
+2023-12-28 06:35:47,253 MainThread perf INFO In elapsed_time=0:07:59.374035, Done loading organisims from owl file  
+2023-12-28 06:35:47,254 MainThread perf INFO Starting inserting organisms data into database
+2023-12-28 06:35:50,251 MainThread app.api.service INFO Connection to database created successfully
+2023-12-28 06:35:50,385 MainThread __main__ ERROR While processing in Function DB_start.load_organisms, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'NCBITaxon_1001001' for key 'organisms.PRIMARY'")' in Line Number 101  File Name db_start.py
+2023-12-28 06:35:50,460 MainThread perf INFO In elapsed_time=0:00:03.205602, Done inserting organisms data into database 
+2023-12-28 06:35:50,460 MainThread perf INFO Starting inserting substratum data into database
+2023-12-28 06:35:50,466 MainThread app.api.service INFO Connection to database created successfully
+2023-12-28 06:35:50,470 MainThread __main__ ERROR While processing in Function DB_start.load_substratum, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'Picoliter Drops' for key 'substratum.PRIMARY'")' in Line Number 119  File Name db_start.py
+2023-12-28 06:35:50,470 MainThread perf INFO In elapsed_time=0:00:00.009761, Done inserting substratum data into database 
+2023-12-28 06:35:50,470 MainThread perf INFO Starting inserting vessels data into database
+2023-12-28 06:35:50,471 MainThread app.api.service INFO Connection to database created successfully
+2023-12-28 06:35:50,473 MainThread __main__ ERROR While processing in Function DB_start.load_vessels, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'Microfluidic Devices' for key 'vessels.PRIMARY'")' in Line Number 138  File Name db_start.py
+2023-12-28 06:35:50,474 MainThread perf INFO In elapsed_time=0:00:00.003548, Done inserting vessels data into database 
+2023-12-28 06:35:50,474 MainThread perf INFO Starting inserting labs data into database
+2023-12-28 06:35:50,475 MainThread app.api.service INFO Connection to database created successfully
+2023-12-28 06:35:50,477 MainThread __main__ ERROR While processing in Function DB_start.load_labs, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'Ross Carlson' for key 'labs.PRIMARY'")' in Line Number 156  File Name db_start.py
+2023-12-28 06:35:50,477 MainThread perf INFO In elapsed_time=0:00:00.003094, Done inserting labs data into database 
+2023-12-29 07:10:54,787 MainThread perf INFO Starting loading organisims from owl file 
+2023-12-29 07:13:47,421 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-12-29 07:17:38,431 MainThread __main__ INFO Found 2283184 subclasses of ['cellular organisms']
+2023-12-29 07:20:21,109 MainThread __main__ INFO Found 2033658 nodes with has_rank ending in species
+2023-12-29 07:21:07,385 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-12-29 07:21:09,319 MainThread __main__ INFO Len all: 2033658
+2023-12-29 07:21:09,319 MainThread __main__ INFO len good: 1978739
+2023-12-29 07:21:09,319 MainThread __main__ INFO len bad: 54920
+2023-12-29 07:21:11,464 MainThread perf INFO In elapsed_time=0:10:16.672420, Done loading organisims from owl file  
+2023-12-29 07:21:11,465 MainThread perf INFO Starting inserting organisms data into database
+2023-12-29 07:21:13,903 MainThread app.api.service INFO Connection to database created successfully
+2023-12-29 07:21:32,751 MainThread perf INFO In elapsed_time=0:00:21.283820, Done inserting organisms data into database 
+2023-12-29 07:21:32,751 MainThread perf INFO Starting inserting substratum data into database
+2023-12-29 07:21:32,756 MainThread app.api.service INFO Connection to database created successfully
+2023-12-29 07:21:32,767 MainThread perf INFO In elapsed_time=0:00:00.015112, Done inserting substratum data into database 
+2023-12-29 07:21:32,767 MainThread perf INFO Starting inserting vessels data into database
+2023-12-29 07:21:32,768 MainThread app.api.service INFO Connection to database created successfully
+2023-12-29 07:21:32,771 MainThread perf INFO In elapsed_time=0:00:00.004269, Done inserting vessels data into database 
+2023-12-29 07:21:32,771 MainThread perf INFO Starting inserting labs data into database
+2023-12-29 07:21:32,772 MainThread app.api.service INFO Connection to database created successfully
+2023-12-29 07:21:32,776 MainThread perf INFO In elapsed_time=0:00:00.004785, Done inserting labs data into database 
+2023-12-29 08:30:14,525 Thread-17 app.api.service INFO Connection to remote server created successfully
+2023-12-29 08:30:16,587 Thread-17 app.api.service INFO Connection to database created successfully
+2023-12-29 08:30:16,624 Thread-17 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2023-12-31 09:06:02,052 MainThread perf INFO Starting loading organisims from owl file 
+2023-12-31 09:09:08,825 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2023-12-31 09:11:50,592 MainThread __main__ INFO Found 2283184 subclasses of ['cellular organisms']
+2023-12-31 09:12:16,567 MainThread __main__ INFO Found 2033658 nodes with has_rank ending in species
+2023-12-31 09:13:03,248 MainThread __main__ INFO Made a list of name and label for each leaf
+2023-12-31 09:13:05,141 MainThread __main__ INFO Len all: 2033658
+2023-12-31 09:13:05,141 MainThread __main__ INFO len good: 1978739
+2023-12-31 09:13:05,141 MainThread __main__ INFO len bad: 54920
+2023-12-31 09:13:07,280 MainThread perf INFO In elapsed_time=0:07:05.223329, Done loading organisims from owl file  
+2023-12-31 09:13:07,280 MainThread perf INFO Starting inserting organisms data into database
+2023-12-31 09:13:10,180 MainThread app.api.service INFO Connection to database created successfully
+2023-12-31 09:13:29,267 MainThread perf INFO In elapsed_time=0:00:21.985296, Done inserting organisms data into database 
+2023-12-31 09:13:29,268 MainThread perf INFO Starting inserting substratum data into database
+2023-12-31 09:13:29,274 MainThread app.api.service INFO Connection to database created successfully
+2023-12-31 09:13:29,292 MainThread perf INFO In elapsed_time=0:00:00.024594, Done inserting substratum data into database 
+2023-12-31 09:13:29,292 MainThread perf INFO Starting inserting vessels data into database
+2023-12-31 09:13:29,293 MainThread app.api.service INFO Connection to database created successfully
+2023-12-31 09:13:29,295 MainThread perf INFO In elapsed_time=0:00:00.003061, Done inserting vessels data into database 
+2023-12-31 09:13:29,295 MainThread perf INFO Starting inserting labs data into database
+2023-12-31 09:13:29,297 MainThread app.api.service INFO Connection to database created successfully
+2023-12-31 09:13:29,298 MainThread perf INFO In elapsed_time=0:00:00.002329, Done inserting labs data into database 
+2024-01-04 11:22:29,281 Thread-16 app.api.service INFO Connection to remote server created successfully
+2024-01-04 11:22:29,950 Thread-16 app.api.service INFO Connection to database created successfully
+2024-01-04 11:22:29,963 Thread-16 app.api.service INFO Image uploaded to '/data/biofilm/10197.jpeg' on the remote server
+2024-01-10 08:16:09,871 Thread-14 app.api.service ERROR While processing in Function submitform, we got <class 'TypeError'> Exception. 
+ 'expected str, bytes or os.PathLike object, not int' in Line Number 117  File Name service.py
+2024-01-10 08:22:01,213 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 08:22:01,569 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'UnboundLocalError'> Exception. 
+ 'local variable 'image_data' referenced before assignment' in Line Number 139  File Name service.py
+2024-01-10 08:24:24,881 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 08:24:25,262 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'UnboundLocalError'> Exception. 
+ 'local variable 'image_data' referenced before assignment' in Line Number 139  File Name service.py
+2024-01-10 08:25:34,982 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 08:25:35,342 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'UnboundLocalError'> Exception. 
+ 'local variable 'image_data' referenced before assignment' in Line Number 140  File Name service.py
+2024-01-10 08:26:15,733 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 08:26:16,053 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'UnboundLocalError'> Exception. 
+ 'local variable 'image_data' referenced before assignment' in Line Number 141  File Name service.py
+2024-01-10 08:26:31,959 Thread-9 app.api.service INFO Connection to remote server created successfully
+2024-01-10 08:26:32,563 Thread-9 app.api.service INFO Connection to database created successfully
+2024-01-10 08:26:32,584 Thread-9 app.api.service INFO Image uploaded to '/data/biofilm/10181.jpeg' on the remote server
+2024-01-10 08:34:15,048 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 08:34:15,480 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'UnboundLocalError'> Exception. 
+ 'local variable 'image_data' referenced before assignment' in Line Number 146  File Name service.py
+2024-01-10 08:36:00,456 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 08:36:01,143 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-10 08:36:01,148 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'test_experiment1' for key 'experiment.PRIMARY'")' in Line Number 151  File Name service.py
+2024-01-10 08:36:24,214 Thread-9 app.api.service INFO Connection to remote server created successfully
+2024-01-10 08:36:24,800 Thread-9 app.api.service INFO Connection to database created successfully
+2024-01-10 08:36:24,808 Thread-9 app.api.service INFO Image uploaded to '/data/biofilm/Snap-10181.jpeg' on the remote server
+2024-01-10 08:39:51,176 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 08:39:51,872 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-10 08:39:51,882 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/Snap-10181.jpeg' on the remote server
+2024-01-10 20:20:39,876 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 20:20:41,108 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 20:20:41,594 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-10 20:20:41,607 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10181.jpeg' on the remote server
+2024-01-10 20:24:03,202 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-01-10 20:24:04,141 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-01-10 20:24:04,938 Thread-11 app.api.service INFO Connection to database created successfully
+2024-01-10 20:24:04,948 Thread-11 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10181.jpeg' on the remote server
+2024-01-10 20:33:03,395 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 20:33:04,287 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 20:33:04,893 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-10 20:33:04,903 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10182.jpeg' on the remote server
+2024-01-10 20:34:01,779 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 20:34:02,665 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-10 20:34:03,293 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-10 20:34:03,304 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10183.jpeg' on the remote server
+2024-01-18 11:35:57,006 Thread-12 app.api.service INFO Connection to remote server created successfully
+2024-01-18 11:35:57,770 Thread-12 app.api.service INFO Connection to remote server created successfully
+2024-01-18 11:35:58,321 Thread-12 app.api.service INFO Connection to database created successfully
+2024-01-18 11:35:58,346 Thread-12 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10181.jpeg' on the remote server
+2024-01-18 11:41:17,230 Thread-17 app.api.service INFO Connection to remote server created successfully
+2024-01-18 11:41:18,257 Thread-17 app.api.service INFO Connection to remote server created successfully
+2024-01-18 11:41:18,830 Thread-17 app.api.service INFO Connection to database created successfully
+2024-01-18 11:41:18,839 Thread-17 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10188.jpeg' on the remote server
+2024-01-18 11:51:09,600 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 11:51:10,617 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 11:51:11,086 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'OSError'> Exception. 
+ 'Socket is closed' in Line Number 159  File Name service.py
+2024-01-18 11:52:06,446 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 11:52:07,322 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 11:52:07,804 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 159  File Name service.py
+2024-01-18 11:52:56,620 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 11:53:04,651 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 11:53:05,397 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 11:53:05,914 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'OSError'> Exception. 
+ 'Socket is closed' in Line Number 159  File Name service.py
+2024-01-18 12:10:57,747 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:10:58,748 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:10:59,323 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-18 12:10:59,360 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/Snap-10183.jpeg' on the remote server
+2024-01-18 12:16:32,899 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:16:33,915 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:16:34,420 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-18 12:16:34,431 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/Snap-10183.jpeg' on the remote server
+2024-01-18 12:20:48,942 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:20:49,691 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:20:50,202 Thread-11 app.api.service INFO Connection to database created successfully
+2024-01-18 12:20:50,208 Thread-11 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'test_experiment2' for key 'experiment.PRIMARY'")' in Line Number 169  File Name service.py
+2024-01-18 12:20:58,062 Thread-16 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:20:59,091 Thread-16 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:20:59,622 Thread-16 app.api.service INFO Connection to database created successfully
+2024-01-18 12:20:59,627 Thread-16 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment3/jpeg/Snap-10181.jpeg' on the remote server
+2024-01-18 12:39:58,374 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:39:59,149 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:39:59,634 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'AttributeError'> Exception. 
+ ''bytes' object has no attribute 'read'' in Line Number 161  File Name service.py
+2024-01-18 12:40:52,001 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 138  File Name service.py
+2024-01-18 12:41:45,358 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 138  File Name service.py
+2024-01-18 12:42:00,313 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 138  File Name service.py
+2024-01-18 12:42:20,585 Thread-7 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 138  File Name service.py
+2024-01-18 12:42:49,849 Thread-8 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 138  File Name service.py
+2024-01-18 12:45:51,849 Thread-9 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 138  File Name service.py
+2024-01-18 12:47:43,469 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:47:44,561 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:47:45,025 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'AttributeError'> Exception. 
+ ''bytes' object has no attribute 'read'' in Line Number 162  File Name service.py
+2024-01-18 12:49:36,396 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:49:37,149 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:49:37,626 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-18 12:49:37,647 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment4/jpeg/Snap-10183.jpeg' on the remote server
+2024-01-18 12:50:59,263 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'NameError'> Exception. 
+ 'name 'image' is not defined' in Line Number 132  File Name service.py
+2024-01-18 12:52:20,935 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:52:21,699 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:52:22,291 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-18 12:52:22,303 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment4/jpeg/Snap-10184.jpeg' on the remote server
+2024-01-18 12:55:10,851 Thread-10 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:55:11,622 Thread-10 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:55:12,190 Thread-10 app.api.service INFO Connection to database created successfully
+2024-01-18 12:55:12,204 Thread-10 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment4/jpeg/Snap-10188.jpeg' on the remote server
+2024-01-18 12:58:34,245 Thread-27 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:58:35,291 Thread-27 app.api.service INFO Connection to remote server created successfully
+2024-01-18 12:58:35,812 Thread-27 app.api.service INFO Connection to database created successfully
+2024-01-18 12:58:35,823 Thread-27 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment5/jpeg/Snap-10182.jpeg' on the remote server
+2024-01-18 13:04:10,167 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 13:04:10,937 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 13:04:11,464 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-18 13:04:11,474 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment5/jpeg/Snap-10182.jpeg' on the remote server
+2024-01-18 13:10:12,150 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 139  File Name service.py
+2024-01-18 13:10:24,037 Thread-7 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 139  File Name service.py
+2024-01-18 13:10:34,770 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 139  File Name service.py
+2024-01-18 13:11:33,143 Thread-10 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 139  File Name service.py
+2024-01-18 13:11:54,904 Thread-11 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 139  File Name service.py
+2024-01-18 13:12:41,231 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 13:12:42,320 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-18 13:12:42,832 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-18 13:12:42,842 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project5/test_Experiment1/jpeg/Snap-10184.jpeg' on the remote server
+2024-01-18 13:30:02,433 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 142  File Name service.py
+2024-01-18 13:44:03,624 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 142  File Name service.py
+2024-01-19 15:33:59,599 Thread-11 app.api.service ERROR While processing in Function submitform, we got <class 'ValueError'> Exception. 
+ 'not a CZI file' in Line Number 142  File Name service.py
+2024-01-19 15:35:15,376 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'AttributeError'> Exception. 
+ ''_io.BufferedRandom' object has no attribute 'copy'' in Line Number 130  File Name service.py
+2024-01-19 15:42:28,822 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-19 15:42:30,105 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-19 15:42:30,639 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-19 15:42:30,654 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10183.jpeg' on the remote server
+2024-01-19 15:48:36,349 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-19 15:48:37,592 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-19 15:48:48,603 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-19 15:48:48,612 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10183.jpeg' on the remote server
+2024-01-19 15:54:11,579 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-19 15:54:12,767 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-19 15:54:22,484 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-19 15:54:22,493 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10184.jpeg' on the remote server
+2024-01-23 17:49:16,538 Thread-13 app.api.service INFO Connection to remote server created successfully
+2024-01-23 17:49:17,780 Thread-13 app.api.service INFO Connection to remote server created successfully
+2024-01-23 17:49:21,020 Thread-13 app.api.service INFO Connection to database created successfully
+2024-01-23 17:49:21,042 Thread-13 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10181.jpeg' on the remote server
+2024-01-25 11:16:26,438 MainThread perf INFO Starting loading organisims from owl file 
+2024-01-25 11:18:51,868 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2024-01-25 11:22:37,110 MainThread __main__ INFO Found 2283184 subclasses of ['cellular organisms']
+2024-01-25 11:23:02,644 MainThread __main__ INFO Found 2033658 nodes with has_rank ending in species
+2024-01-25 11:23:47,762 MainThread __main__ INFO Made a list of name and label for each leaf
+2024-01-25 11:23:49,707 MainThread __main__ INFO Len all: 2033658
+2024-01-25 11:23:49,707 MainThread __main__ INFO len good: 1978739
+2024-01-25 11:23:49,707 MainThread __main__ INFO len bad: 54920
+2024-01-25 11:23:51,843 MainThread perf INFO In elapsed_time=0:07:25.400998, Done loading organisims from owl file  
+2024-01-25 11:23:51,843 MainThread perf INFO Starting inserting organisms data into database
+2024-01-25 11:23:54,503 MainThread app.api.service INFO Connection to database created successfully
+2024-01-25 11:23:54,615 MainThread __main__ ERROR While processing in Function DB_start.load_organisms, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'NCBITaxon_1001001' for key 'organisms.PRIMARY'")' in Line Number 101  File Name db_start.py
+2024-01-25 11:23:54,695 MainThread perf INFO In elapsed_time=0:00:02.851448, Done inserting organisms data into database 
+2024-01-25 11:23:54,695 MainThread perf INFO Starting inserting substratum data into database
+2024-01-25 11:23:54,697 MainThread app.api.service INFO Connection to database created successfully
+2024-01-25 11:23:54,706 MainThread __main__ ERROR While processing in Function DB_start.load_substratum, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'Picoliter Drops' for key 'substratum.PRIMARY'")' in Line Number 119  File Name db_start.py
+2024-01-25 11:23:54,706 MainThread perf INFO In elapsed_time=0:00:00.011263, Done inserting substratum data into database 
+2024-01-25 11:23:54,706 MainThread perf INFO Starting inserting vessels data into database
+2024-01-25 11:23:54,707 MainThread app.api.service INFO Connection to database created successfully
+2024-01-25 11:23:54,708 MainThread __main__ ERROR While processing in Function DB_start.load_vessels, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'Microfluidic Devices' for key 'vessels.PRIMARY'")' in Line Number 138  File Name db_start.py
+2024-01-25 11:23:54,708 MainThread perf INFO In elapsed_time=0:00:00.002035, Done inserting vessels data into database 
+2024-01-25 11:23:54,708 MainThread perf INFO Starting inserting labs data into database
+2024-01-25 11:23:54,709 MainThread app.api.service INFO Connection to database created successfully
+2024-01-25 11:23:54,710 MainThread __main__ ERROR While processing in Function DB_start.load_labs, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'Ross Carlson' for key 'labs.PRIMARY'")' in Line Number 156  File Name db_start.py
+2024-01-25 11:23:54,710 MainThread perf INFO In elapsed_time=0:00:00.002171, Done inserting labs data into database 
+2024-01-25 11:54:28,621 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-25 11:54:29,555 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-01-25 11:54:30,955 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-01-25 11:54:31,872 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-01-25 11:54:32,034 Thread-6 app.api.service INFO Connection to database created successfully
+2024-01-25 11:54:32,043 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10184.jpeg' on the remote server
+2024-01-25 11:54:33,881 Thread-11 app.api.service INFO Connection to database created successfully
+2024-01-25 11:54:33,883 Thread-11 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'test_experiment1' for key 'experiment.PRIMARY'")' in Line Number 166  File Name service.py
+2024-01-25 12:04:08,064 Thread-16 app.api.service INFO Connection to remote server created successfully
+2024-01-25 12:04:09,091 Thread-16 app.api.service INFO Connection to remote server created successfully
+2024-01-25 12:04:11,009 Thread-16 app.api.service INFO Connection to database created successfully
+2024-01-25 12:04:11,013 Thread-16 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/Snap-10185.jpeg' on the remote server
+2024-01-25 12:05:42,700 Thread-21 app.api.service INFO Connection to remote server created successfully
+2024-01-25 12:05:43,683 Thread-21 app.api.service INFO Connection to remote server created successfully
+2024-01-25 12:05:45,642 Thread-21 app.api.service INFO Connection to database created successfully
+2024-01-25 12:05:45,647 Thread-21 app.api.service INFO Image uploaded to '/data/biofilm/test_project2/test_experiment3/jpeg/Snap-10186.jpeg' on the remote server
+2024-02-06 13:41:05,881 MainThread perf INFO Starting loading organisims from owl file 
+2024-02-06 13:44:00,145 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2024-02-06 13:47:47,206 MainThread __main__ INFO Found 2283184 subclasses of ['cellular organisms']
+2024-02-06 13:48:11,752 MainThread __main__ INFO Found 2033658 nodes with has_rank ending in species
+2024-02-06 13:48:57,195 MainThread __main__ INFO Made a list of name and label for each leaf
+2024-02-06 13:48:59,143 MainThread __main__ INFO Len all: 2033658
+2024-02-06 13:48:59,144 MainThread __main__ INFO len good: 1978739
+2024-02-06 13:48:59,144 MainThread __main__ INFO len bad: 54920
+2024-02-06 13:49:01,237 MainThread perf INFO In elapsed_time=0:07:55.353716, Done loading organisims from owl file  
+2024-02-06 13:49:01,238 MainThread perf INFO Starting inserting organisms data into database
+2024-02-06 13:49:03,668 MainThread app.api.service INFO Connection to database created successfully
+2024-02-06 13:49:26,670 MainThread perf INFO In elapsed_time=0:00:25.426946, Done inserting organisms data into database 
+2024-02-06 13:49:26,674 MainThread perf INFO Starting inserting substratum data into database
+2024-02-06 13:49:26,688 MainThread app.api.service INFO Connection to database created successfully
+2024-02-06 13:49:26,696 MainThread perf INFO In elapsed_time=0:00:00.021943, Done inserting substratum data into database 
+2024-02-06 13:49:26,696 MainThread perf INFO Starting inserting vessels data into database
+2024-02-06 13:49:26,697 MainThread app.api.service INFO Connection to database created successfully
+2024-02-06 13:49:26,699 MainThread perf INFO In elapsed_time=0:00:00.002887, Done inserting vessels data into database 
+2024-02-06 13:49:26,699 MainThread perf INFO Starting inserting labs data into database
+2024-02-06 13:49:26,700 MainThread app.api.service INFO Connection to database created successfully
+2024-02-06 13:49:26,701 MainThread perf INFO In elapsed_time=0:00:00.002775, Done inserting labs data into database 
+2024-02-06 13:58:44,420 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-02-06 13:58:45,758 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-02-06 13:58:48,513 Thread-14 app.api.service INFO Connection to database created successfully
+2024-02-06 13:58:48,528 Thread-14 app.api.service INFO Image uploaded to '/data/biofilm/test_project5/test_experiment5/jpeg/Snap-10185.jpeg' on the remote server

@@ -1,0 +1,159 @@
+{% extends "base.html" %} {% block title %}upload Image{% endblock %} 
+{% block content %}
+<h1 align="center">Upload Image</h1>
+
+<style>
+    #imageUpload {
+        margin-left: 140px;
+    }
+    #submitBtn:disabled {
+        background-color: #cccccc; 
+        cursor: not-allowed; 
+    }
+    input::placeholder {
+            color: rgb(0, 0, 0); 
+            opacity: 10; 
+        } 
+    
+</style>
+
+
+
+
+<div style="max-width: 1000px; margin: auto; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #f9f9f9; border-radius: 10px;">
+    <form id="uploadForm" >
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <div style="flex: 1; text-align: left; min-width: 300px; padding-right: 10px;">
+                <input type="text" id="ExperimentName" name="ExperimentName" placeholder="Experiment Name" required style="margin: auto; display: block;"><br><br>
+                <input type="text" id="ProjectName" name="ProjectName" placeholder="Project Name" required style="margin: auto; display: block;"><br><br>
+                <select id="LabOwner" name="LabOwner" required style="margin: auto; display: block;">
+                    <option value="" disabled selected>Lab Owner</option>
+                </select><br><br>
+                <input type="text" id="ncbiid" name="ncbiid" placeholder="ncbi id" required style="margin: auto; display: block;"><br><br>
+                <select id="VesselName" name="VesselName" required style="margin: auto; display: block;">
+                    <option value="" disabled selected>Vessel Name</option>
+                </select><br><br>
+                <select id="SubstratumName" name="SubstratumName" required style="margin: auto; display: block;">
+                    <option value="" disabled selected>Substratum Name</option>
+                </select><br><br>
+            </div>
+        
+            <div style="flex: 1; text-align: left; min-width: 300px; padding-left: 10px;">
+                <label for="DateTaken" style="margin: auto; display: block;">Date Taken:</label>
+                <input type="date" id="DateTaken" name="DateTaken" placeholder="Date Taken" required style="margin: auto; display: block;"><br><br>
+                <label for="ReleaseDate" style="margin: auto; display: block;">Release Date:</label>
+                <input type="date" id="ReleaseDate" name="ReleaseDate" placeholder="Release Date" required style="margin: auto; display: block;"><br><br>
+                <select id="MicroscopeSettings" name="MicroscopeSettings" placeholder="Microscope Settings" required style="margin: auto; display: block;">
+                    <option value="" disabled selected>Microscope Settings</option>
+                </select><br><br>
+                <textarea id="Description" name="Description" placeholder="Description" required style="margin: auto; display: block; width: 80%; height: 100px;"></textarea><br><br>
+                <div style="text-align: left; margin: auto; width: fit-content;">
+                    <label for="imageUpload" style="margin: auto; display: block; margin-left: 40px;">Upload Images (JPEG or CZI):</label>
+                    <input type="file" id="imageUpload" name="imageUpload" accept=".jpeg, .czi" multiple><br>
+                </div>
+            </div>
+            
+        </div>
+    
+</form>
+</div>
+<div style="display: flex">
+    <input type="submit" id="submitBtn" value="Submit" style="margin: auto;">
+</div>
+
+<div id="result" style="color: rgb(255, 0, 0); text-align: center;"></div>
+
+<script>
+
+    document.getElementById('submitBtn').addEventListener('click', function() {
+        const form = document.getElementById('uploadForm');
+        const formData = new FormData(form);
+        if (!imageUpload.files.length) {
+            alert('Please upload an image.');
+        } else {
+            fetch('http://127.0.0.1:8000/submitform', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('result').textContent = data;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });}
+        });
+
+
+    </script>
+
+<script>
+    function populateDropdown() {
+    fetch('/static/data/app_config.json') 
+        .then(response => response.json())
+        .then(data => {
+            var labowner_ = document.getElementById("LabOwner");
+            data.lab_owner.forEach(function(name) {
+                var option = document.createElement("option");
+                option.value = name;
+                option.text = name;
+                labowner_.appendChild(option);
+            });
+            var combos_ = document.getElementById("MicroscopeSettings");
+            data.combos.forEach(function(name) {
+                var option = document.createElement("option");
+                option.value = name;
+                option.text = name;
+                combos_.appendChild(option);
+            });
+            var vessel_ = document.getElementById("VesselName");
+            data.vessels.forEach(function(name) {
+                var option = document.createElement("option");
+                option.value = name;
+                option.text = name;
+                vessel_.appendChild(option);
+            });
+            var substratum_ = document.getElementById("SubstratumName");
+            data.substratum.forEach(function(name) {
+                var option = document.createElement("option");
+                option.value = name;
+                option.text = name;
+                substratum_.appendChild(option);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching the JSON file:', error);
+        });
+}
+
+document.addEventListener('DOMContentLoaded', populateDropdown);
+
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var form = document.getElementById('uploadForm');
+        var submitBtn = document.getElementById('submitBtn');
+
+        submitBtn.disabled = true;
+
+        function checkForm() {
+            var inputs = form.querySelectorAll('[required]');
+            var isValid = true;
+
+            inputs.forEach(function (input) {
+                if (!input.value.trim()) {
+                    isValid = false;
+                }
+            });
+
+            submitBtn.disabled = !isValid;
+        }
+
+        form.addEventListener('change', checkForm);
+
+        form.addEventListener('input', checkForm);
+    });
+</script>
+
+
+{% endblock %}

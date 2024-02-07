@@ -82,7 +82,7 @@ class DB_start():
                 f.write('\n'.join(bad))
                 
         except Exception as e:
-            logger.error(f"While processing in Function {DB_init.create_organisms.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
+            logger.error(f"While processing in Function {DB_start.create_organisms.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
             
     @time_it("inserting organisms data into database")        
     def load_organisms(self, ):
@@ -97,14 +97,14 @@ class DB_start():
 
             connection = db_conn()
             with connection.cursor() as cur:
-#                 cur.execute(config['organism_truncate_query'])
+                # cur.execute(config['organism_truncate_query'])
                 cur.executemany(config['organism_insert_query'], organisms_list)
                 connection.commit()
                 cur.close()
                 connection.close()
 
         except Exception as e:
-            logger.error(f"While processing in Function {DB_init.load_organisms.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
+            logger.error(f"While processing in Function {DB_start.load_organisms.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
     
     @time_it("inserting substratum data into database")
     def load_substratum(self, ):
@@ -123,7 +123,7 @@ class DB_start():
                 
             
         except Exception as e:
-            logger.error(f"While processing in Function {DB_init.load_substratum.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
+            logger.error(f"While processing in Function {DB_start.load_substratum.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
             
     @time_it("inserting vessels data into database")
     def load_vessels(self, ):
@@ -141,7 +141,7 @@ class DB_start():
                 connection.close()
 
         except Exception as e:
-            logger.error(f"While processing in Function {DB_init.load_vessels.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
+            logger.error(f"While processing in Function {DB_start.load_vessels.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
             
     @time_it("inserting labs data into database")
     def load_labs(self, ):
@@ -159,7 +159,7 @@ class DB_start():
                 connection.close()
 
         except Exception as e:
-            logger.error(f"While processing in Function {DB_init.load_labs.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
+            logger.error(f"While processing in Function {DB_start.load_labs.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
             
             
 if __name__ == "__main__":

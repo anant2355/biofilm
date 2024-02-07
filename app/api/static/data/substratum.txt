@@ -1,0 +1,47 @@
+Picoliter Drops
+PDMS polymer
+Glass
+Acrylic
+Stainless Steel (304) Coupon
+Stainless Steel (316L) Coupon
+Stainless Steel (316L) Coupon (Electropolished Surface)
+Stainless Steel (316L) Coupon (Hand Polished Surface)
+Stainless Steel (347) Coupon
+Acrylonitrile Butadiene Styrene (ABS) Coupon (non-autoclavable)
+Aluminum Coupon
+AHW White High Grade FC Buna N Rubber Coupon
+Concrete Coated Polycarbonate Coupon (polycarbonate cup filled with concrete)
+Cast Iron Coupon
+Cobalt Chrome Coupon (Alloy F1537)
+CPVC Coupon
+Carbon Steel Coupon
+Copper Coupon
+Ductile Iron Coupon
+EPDM Rubber Disc Coupon
+Borosilicate Glass Coupon
+Glazed Tile Coupon (porous ceramic substratum, one side glazed tile surface-white)
+Hydroxy Apatite Coupon
+High Density Polyethylene Coupon
+Hypalon Rubber Coupon
+Low Density Polyethylene Coupon (non-autoclavable)
+Lucitone Dental Plastic Coupon
+Nickel Coupon
+Natural Rubber Coupon
+Nylon Coupon
+Polycarbonate Coupon
+Polycarbonate Cup Coupon
+UMHW Polyethylene Coupon (ultra-high-molecular-weight polyethylene)
+Polyetherertherketone (PEEK: Arlon 1330) Coupon
+Polyethylene Terephthalate (PET: Polyester, Dacron) Coupon
+Polyethylene Terephthalate Glycol (PETG) Coupon (non-autoclavable)
+Plexiglass (acrylic) Coupon (non-autoclavable)
+Porcelain Surface Coupon (porous ceramic substratum, one side glazed porcelain)
+Polypropylene Coupon
+Polystyrene Coupon (non-autoclavable)
+Teflon (PTFE) Coupon
+Polyurethane Coupon (high temperature polymer)
+PVC (white) Coupon (non-autoclavable)
+Silicone Rubber Coupon
+Titanium Coupon
+Titanium Alloy (Ti-6AL-4V ELI) Coupon
+Viton Coupon
