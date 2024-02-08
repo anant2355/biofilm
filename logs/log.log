@@ -1003,3 +1003,184 @@
 2024-02-06 13:58:45,758 Thread-14 app.api.service INFO Connection to remote server created successfully
 2024-02-06 13:58:48,513 Thread-14 app.api.service INFO Connection to database created successfully
 2024-02-06 13:58:48,528 Thread-14 app.api.service INFO Image uploaded to '/data/biofilm/test_project5/test_experiment5/jpeg/Snap-10185.jpeg' on the remote server
+2024-02-07 18:11:01,237 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 18:11:02,604 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 18:11:03,378 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-07 18:11:03,384 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1452, 'Cannot add or update a child row: a foreign key constraint fails (`biofilm`.`experiment`, CONSTRAINT `experiment_ibfk_1` FOREIGN KEY (`lab_owner`) REFERENCES `labs` (`lab_owner`))')' in Line Number 152  File Name service.py
+2024-02-07 18:40:45,854 MainThread perf INFO Starting loading organisims from owl file 
+2024-02-07 18:43:34,063 MainThread __main__ INFO Found the node NCBITaxon_131567 labeled ['cellular organisms']
+2024-02-07 18:46:49,678 MainThread __main__ INFO Found 2283184 subclasses of ['cellular organisms']
+2024-02-07 18:47:15,268 MainThread __main__ INFO Found 2033658 nodes with has_rank ending in species
+2024-02-07 18:48:01,068 MainThread __main__ INFO Made a list of name and label for each leaf
+2024-02-07 18:48:03,003 MainThread __main__ INFO Len all: 2033658
+2024-02-07 18:48:03,003 MainThread __main__ INFO len good: 1978739
+2024-02-07 18:48:03,003 MainThread __main__ INFO len bad: 54920
+2024-02-07 18:48:05,213 MainThread perf INFO In elapsed_time=0:07:19.355509, Done loading organisims from owl file  
+2024-02-07 18:48:05,214 MainThread perf INFO Starting inserting organisms data into database
+2024-02-07 18:48:07,683 MainThread app.api.service INFO Connection to database created successfully
+2024-02-07 18:48:27,219 MainThread perf INFO In elapsed_time=0:00:22.005233, Done inserting organisms data into database 
+2024-02-07 18:48:27,221 MainThread perf INFO Starting inserting substratum data into database
+2024-02-07 18:48:27,224 MainThread app.api.service INFO Connection to database created successfully
+2024-02-07 18:48:27,227 MainThread perf INFO In elapsed_time=0:00:00.006754, Done inserting substratum data into database 
+2024-02-07 18:48:27,227 MainThread perf INFO Starting inserting vessels data into database
+2024-02-07 18:48:27,229 MainThread app.api.service INFO Connection to database created successfully
+2024-02-07 18:48:27,231 MainThread perf INFO In elapsed_time=0:00:00.002937, Done inserting vessels data into database 
+2024-02-07 18:48:27,231 MainThread perf INFO Starting inserting labs data into database
+2024-02-07 18:48:27,232 MainThread app.api.service INFO Connection to database created successfully
+2024-02-07 18:48:27,234 MainThread perf INFO In elapsed_time=0:00:00.002283, Done inserting labs data into database 
+2024-02-07 18:50:08,619 Thread-9 app.api.service ERROR While processing in Function submitform, we got <class 'UnboundLocalError'> Exception. 
+ 'local variable 'project_folder' referenced before assignment' in Line Number 118  File Name service.py
+2024-02-07 18:50:47,437 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 18:50:48,548 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 18:50:49,045 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-07 18:50:49,052 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'TypeError'> Exception. 
+ 'not all arguments converted during string formatting' in Line Number 158  File Name service.py
+2024-02-07 18:52:57,458 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 18:52:58,644 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 18:52:59,139 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-07 18:52:59,143 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'TypeError'> Exception. 
+ 'not all arguments converted during string formatting' in Line Number 159  File Name service.py
+2024-02-07 18:56:45,972 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 18:56:50,180 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 18:56:50,959 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-07 18:56:50,973 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.OperationalError'> Exception. 
+ '(3140, 'Invalid JSON text: "The document root must not be followed by other values." at position 1 in value for column \'image_data.microscope_settings\'.')' in Line Number 159  File Name service.py
+2024-02-07 19:01:36,306 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 19:01:52,998 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 19:01:53,863 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 19:01:54,396 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-07 19:01:54,401 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10182.jpeg' on the remote server
+2024-02-07 19:02:51,724 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-02-07 19:02:52,592 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-02-07 19:02:54,583 Thread-11 app.api.service INFO Connection to database created successfully
+2024-02-07 19:02:54,586 Thread-11 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10182.jpeg' on the remote server
+2024-02-07 19:19:54,504 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 19:19:55,982 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 19:19:58,282 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-07 19:19:58,288 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10182.jpeg' on the remote server
+2024-02-07 19:20:57,847 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 19:20:59,627 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-07 19:21:02,374 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-07 19:21:02,378 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10183.jpeg' on the remote server
+2024-02-07 19:21:36,897 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-02-07 19:21:38,049 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-02-07 19:21:41,414 Thread-11 app.api.service INFO Connection to database created successfully
+2024-02-07 19:21:41,419 Thread-11 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10184.jpeg' on the remote server
+2024-02-08 08:23:11,506 Thread-11 app.api.service ERROR While processing in Function submitform, we got <class 'AttributeError'> Exception. 
+ ''numpy.ndarray' object has no attribute 'astyspe'' in Line Number 129  File Name service.py
+2024-02-08 08:24:13,689 Thread-12 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:24:14,566 Thread-12 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:24:15,125 Thread-12 app.api.service INFO Connection to database created successfully
+2024-02-08 08:24:15,132 Thread-12 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10181.jpeg' on the remote server
+2024-02-08 08:24:38,773 Thread-17 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:24:39,978 Thread-17 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:24:40,455 Thread-17 app.api.service INFO Connection to database created successfully
+2024-02-08 08:24:40,461 Thread-17 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10182.jpeg' on the remote server
+2024-02-08 08:26:33,314 Thread-22 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:26:34,430 Thread-22 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:26:34,962 Thread-22 app.api.service INFO Connection to database created successfully
+2024-02-08 08:26:34,971 Thread-22 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10182.jpeg' on the remote server
+2024-02-08 08:29:41,360 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:29:42,839 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:29:43,378 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 08:29:43,384 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10182.jpeg' on the remote server
+2024-02-08 08:32:43,098 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:32:43,958 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:32:44,448 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 08:32:44,458 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10182.jpeg' on the remote server
+2024-02-08 08:34:04,604 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:34:05,463 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:34:05,983 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 08:34:05,991 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10182.jpeg' on the remote server
+2024-02-08 08:34:38,945 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:34:39,806 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:34:40,339 Thread-11 app.api.service INFO Connection to database created successfully
+2024-02-08 08:34:40,346 Thread-11 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10184.jpeg' on the remote server
+2024-02-08 08:34:58,990 Thread-16 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:34:59,858 Thread-16 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:35:00,341 Thread-16 app.api.service INFO Connection to database created successfully
+2024-02-08 08:35:00,350 Thread-16 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10185.jpeg' on the remote server
+2024-02-08 08:35:52,021 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:35:52,877 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:35:53,350 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 08:35:53,357 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10185.jpeg' on the remote server
+2024-02-08 08:36:58,096 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:36:58,974 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:36:59,469 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 08:36:59,479 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10185.jpeg' on the remote server
+2024-02-08 08:44:45,019 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:44:46,208 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:44:46,683 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 08:44:46,695 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10185.jpeg' on the remote server
+2024-02-08 08:44:47,258 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:44:48,112 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:44:48,639 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 08:44:48,644 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.IntegrityError'> Exception. 
+ '(1062, "Duplicate entry 'test_experiment2-NCBITaxon_1000003' for key 'experiment.PRIMARY'")' in Line Number 162  File Name service.py
+2024-02-08 08:54:59,805 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:55:01,051 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 08:55:01,598 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 08:55:01,605 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.OperationalError'> Exception. 
+ '(1136, "Column count doesn't match value count at row 1")' in Line Number 162  File Name service.py
+2024-02-08 09:03:48,113 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:03:49,794 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:03:51,084 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 09:03:51,098 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10185.jpeg' on the remote server
+2024-02-08 09:03:51,679 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:03:52,541 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:03:53,070 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 09:03:53,074 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/10186.jpeg' on the remote server
+2024-02-08 09:05:26,046 Thread-15 app.api.service ERROR While processing in Function submitform, we got <class 'AttributeError'> Exception. 
+ ''numpy.ndarray' object has no attribute 'astyspe'' in Line Number 130  File Name service.py
+2024-02-08 09:08:37,394 Thread-23 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:08:38,596 Thread-23 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:08:39,116 Thread-23 app.api.service INFO Connection to database created successfully
+2024-02-08 09:08:39,123 Thread-23 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10183.jpeg' on the remote server
+2024-02-08 09:08:39,685 Thread-23 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:08:40,565 Thread-23 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:08:41,128 Thread-23 app.api.service INFO Connection to database created successfully
+2024-02-08 09:08:41,133 Thread-23 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10184.jpeg' on the remote server
+2024-02-08 09:08:41,890 Thread-23 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:08:42,773 Thread-23 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:08:43,257 Thread-23 app.api.service INFO Connection to database created successfully
+2024-02-08 09:08:43,262 Thread-23 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10185.jpeg' on the remote server
+2024-02-08 09:15:57,247 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:15:58,177 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:15:58,666 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 09:15:58,672 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10183.jpeg' on the remote server
+2024-02-08 09:15:59,234 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:16:00,096 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:16:00,647 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 09:16:00,650 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10184.jpeg' on the remote server
+2024-02-08 09:16:01,213 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:16:02,084 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:16:02,570 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 09:16:02,573 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10185.jpeg' on the remote server
+2024-02-08 09:16:39,726 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:16:46,115 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:16:47,150 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:16:47,689 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 09:16:47,695 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10183.jpeg' on the remote server
+2024-02-08 09:16:48,274 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:16:49,155 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:16:49,792 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 09:16:49,795 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10184.jpeg' on the remote server
+2024-02-08 09:16:50,386 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:16:51,324 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:16:51,816 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 09:16:51,819 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10185.jpeg' on the remote server
+2024-02-08 09:21:35,924 Thread-19 app.api.service ERROR While processing in Function submitform, we got <class 'AttributeError'> Exception. 
+ ''numpy.ndarray' object has no attribute 'astyspe'' in Line Number 131  File Name service.py
+2024-02-08 09:24:26,457 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:24:27,975 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:24:39,269 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-08 09:24:39,277 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10182.jpeg' on the remote server
+2024-02-08 09:25:59,774 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:26:01,513 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:26:15,371 Thread-11 app.api.service INFO Connection to database created successfully
+2024-02-08 09:26:15,377 Thread-11 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10182.jpeg' on the remote server
+2024-02-08 09:26:16,096 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:26:17,038 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-02-08 09:26:29,241 Thread-11 app.api.service INFO Connection to database created successfully
+2024-02-08 09:26:29,248 Thread-11 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10183.jpeg' on the remote server

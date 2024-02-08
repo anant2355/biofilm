@@ -15,3 +15,11 @@ SET FOREIGN_KEY_CHECKS = 0;
 TRUNCATE table Biofilm.labs; 
 SET FOREIGN_KEY_CHECKS = 1;
 
+
+TRUNCATE table Biofilm.image_data; 
+SET FOREIGN_KEY_CHECKS = 0; 
+TRUNCATE table Biofilm.experiment; 
+SET FOREIGN_KEY_CHECKS = 1;
+
+
+

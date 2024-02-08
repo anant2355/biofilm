@@ -1,1 +1,13 @@
-select * from Biofilm.organisms where organism_name = 'fungal sp. Pr10';
+select * from Biofilm.experiment;
+
+select * from Biofilm.image_data;
+
+select * from Biofilm.substratum;
+
+select * from Biofilm.labs;
+
+select * from Biofilm.organisms; 
+
+select * from Biofilm.vessels;
+
+

@@ -1,5 +1,6 @@
 import io
 import os
+import re
 import sys
 import czifile
 import tempfile
@@ -109,54 +110,69 @@ def return_dir(project_folder,experiment_folder):
 @app.route('/submitform', methods=['POST'])            
 def submitform():
     try:
-        request_form = list(request.form.to_dict().values())
-        experiment_insert_data = request_form[:6]
-        image = request.files['imageUpload']
-        filename = os.path.basename(image.filename)
-        remote_folder = config['remote_server_folder']  
-        project_folder = os.path.join(remote_folder,request_form[1])
-        experiment_folder = os.path.join(project_folder,request_form[0])
+        request_form_dict = request.form.to_dict()
+        uploaded_images = request.files.getlist('imageUpload') 
+        image_names = []
+        experiment_insert_check = True
+        for image in uploaded_images:
+            experiment_insert_data = [request_form_dict[k] for k in config['experiment_columns_order'] if k in request_form_dict]
+            # image = request.files['imageUpload']
+            filename = os.path.basename(image.filename)
+            remote_folder = config['remote_server_folder']  
+            project_folder = os.path.join(remote_folder,list(request_form_dict.values())[1])
+            experiment_folder = os.path.join(project_folder,list(request_form_dict.values())[0])
+            ncbi_number = re.findall(r'\d+', request_form_dict[config['experiment_columns_order'][3]])
+            experiment_insert_data[3] = config['ncbi_prefix']+ ncbi_number[0]
 
-        czi_ = False
-        if os.path.splitext(filename)[1] == '.czi':
-            czi_data = czifile.imread(io.BytesIO(image.read()))
-            for i, scene in enumerate(czi_data):
-                scaled_data = (scene * 255.0 / scene.max()).astype(np.uint8)
-                img = Image.fromarray(scaled_data)
-                filename = filename.split('.')[0]+'.jpeg'
-                image_data = io.BytesIO()
-                img.save(image_data, format='JPEG')
-                image_data.seek(0)
-                czi_ = True
+            czi_ = False
+            if os.path.splitext(filename)[1] == '.czi':
+                czi_data = czifile.imread(io.BytesIO(image.read()))
+                for i, scene in enumerate(czi_data):
+                    scaled_data = (scene * 255.0 / scene.max()).astype(np.uint8)
+                    img = Image.fromarray(scaled_data)
+                    filename = filename.split('.')[0]+'.jpeg'
+                    image_data = io.BytesIO()
+                    img.save(image_data, format='JPEG')
+                    image_data.seek(0)
+                    czi_file_path = os.path.join(experiment_folder,'czi',secure_filename(image.filename))
+                    czi_ = True
 
-        elif os.path.splitext(filename)[1] == '.jpeg':
-            image_data = io.BytesIO(image.read())
-        else:
-            return jsonify({'message': f"Image uploaded should be in format czi/jpeg"})
+            elif os.path.splitext(filename)[1] == '.jpeg':
+                image_data = io.BytesIO(image.read())
+            else:
+                return jsonify({'message': f"Image uploaded should be in format czi/jpeg"})
 
-        return_dir(project_folder,experiment_folder)
-        ssh_client = remote_server_conn()
-        remote_file_path = os.path.join(experiment_folder,'jpeg',filename)
-        sftp = ssh_client.open_sftp()
-        sftp.putfo(image_data, remote_file_path)
-        if czi_:
-            with tempfile.NamedTemporaryFile(suffix=".czi", delete=False) as temp_file:
-                temp_file.write(czi_data)
-            sftp.put(temp_file.name, os.path.join(experiment_folder,'czi',secure_filename(image.filename)))
-            os.remove(temp_file.name)
+            return_dir(project_folder,experiment_folder)
+            ssh_client = remote_server_conn()
+            remote_file_path = os.path.join(experiment_folder,'jpeg',filename)
+            sftp = ssh_client.open_sftp()
+            sftp.putfo(image_data, remote_file_path)
+            image_insert_data = [request_form_dict[k] for k in config['imagedata_columns_order'] if k in request_form_dict]
+            if czi_:
+                with tempfile.NamedTemporaryFile(suffix=".czi", delete=False) as temp_file:
+                    temp_file.write(czi_data)
+                sftp.put(temp_file.name, czi_file_path)
+                os.remove(temp_file.name)
+                image_insert_data.append(czi_file_path)
+            else:
+                image_insert_data.append('no czi file uploaded')
 
-        image_insert_data = [request_form[0]]+ [remote_file_path] + request_form[6:8] + [request_form[2]] + [request_form[8]] + [request_form[9]] + [remote_file_path]
-        connection = db_conn()
-        with connection.cursor() as cur:
-            cur.execute(config['experiment_insert_query'],tuple(experiment_insert_data))
-            cur.execute(config['images_insert_query'],tuple(image_insert_data))
-            connection.commit()
-            cur.close()
-            connection.close()
-        
-        
-        logger.info(f"Image uploaded to '{remote_file_path}' on the remote server") 
-        return jsonify({'message': f"Image uploaded to '{remote_file_path}' on the remote server"})
+            image_insert_data.append(remote_file_path)
+            connection = db_conn()
+            with connection.cursor() as cur:
+                if experiment_insert_check:
+                    cur.execute(config['experiment_insert_query'],tuple(experiment_insert_data))
+                    experiment_insert_check = False
+                cur.execute(config['images_insert_query'],tuple(image_insert_data))
+                connection.commit()
+                cur.close()
+                connection.close()
+            
+            
+            logger.info(f"Image uploaded to '{remote_file_path}' on the remote server") 
+            image_names.append(filename)
+        return jsonify({'message': f"Images {','.join(image_names)} uploaded on the remote server"})
+
         
     except Exception as e:
         logger.error(f"While processing in Function {submitform.__qualname__}, we got {sys.exc_info()[0]} Exception. \n '{e}' in Line Number {sys.exc_info()[2].tb_lineno}  File Name {os.path.basename(sys.exc_info()[2].tb_frame.f_code.co_filename)}")
