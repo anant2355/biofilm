@@ -1,0 +1,67 @@
+{% extends "base.html" %} {% block title %}Search Attributes{% endblock %} 
+{% block content %}
+<h1 align="center">Search Attributes</h1>
+<div style="max-width: 1000px; margin: auto; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #f9f9f9; border-radius: 10px;">
+  <form id="searchForm">
+      <input type="text" id="searchOrganism" name="searchOrganism" placeholder="Enter organism name..." required style="margin: auto; display: block;"><br><br>
+      <input type="text" id="searchNcbi" name="searchNcbi" placeholder="Enter NCBI ID..." style="margin: auto; display: block;"><br><br>
+      <input type="submit" value="Search" style="margin: auto; display: block;">
+  </form>
+</div>
+<div id="results"></div>  
+
+<script>
+  document.getElementById('searchForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the form from submitting in the traditional way
+
+      var searchOrganism = document.getElementById('searchOrganism').value;
+      fetch(`http://127.0.0.1:8000/searchattr?searchOrganism=${encodeURIComponent(searchOrganism)}`, {method: 'GET'})
+          .then(response => response.json())
+          .then(data => {
+              var resultsElement = document.getElementById('results');
+              resultsElement.innerHTML = ''
+
+              if (data.length > 0) {
+                var resultsHtml = ''; // Initialize an empty string to store HTML for results
+                data.forEach((item, index) => {
+                    resultsHtml += `<div>`;
+                    resultsHtml += `<button onclick="toggleJson(${index})">${item.organism_name}</button>`;
+                    resultsHtml += `<div id="json${index}" style="display:none; text-align: center;">`;
+                    resultsHtml += `<div style="margin: auto; width: fit-content; text-align: left;">`;
+                    resultsHtml += `<p>Organism Name: ${item.organism_name}</p>`;
+                    resultsHtml += `<p>NCBI ID: ${item.ncbi_id}</p>`;
+                    resultsHtml += `<p>Experiment Name: ${item.experiment_name}</p>`;
+                    resultsHtml += `<p>Project: ${item.project}</p>`;
+                    resultsHtml += `<p>Lab Owner: ${item.lab_owner}</p>`;
+                    resultsHtml += `<p>Vessel Name: ${item.vessel_name}</p>`;
+                    resultsHtml += `<p>Substratum Name: ${item.substratum_name}</p>`;
+                    resultsHtml += `<p>Date Taken: ${item.date_taken}</p>`;
+                    resultsHtml += `<p>Release Date: ${item.release_date}</p>`;
+                    resultsHtml += `<p>Microscope Settings: ${item.microscope_settings}</p>`;
+                    resultsHtml += `<p>Imager: ${item.imager}</p>`;
+                    resultsHtml += `<p>Description: ${item.description}</p>`;
+                    resultsHtml += `<img src="data:image/jpeg;base64,${item.image_data}" alt="Experiment Image" width="400">`;
+                    resultsHtml += `<a href="/download-czi/${encodeURIComponent(item.czi_file_location)}" download>Download CZI File</a>`;
+                    resultsHtml += `</div></div></div><br>`;
+                });
+                resultsElement.innerHTML = resultsHtml;
+            } else {
+                resultsElement.innerHTML = '<p>No results found.</p>';
+            }
+          })
+          .catch(error => {
+              console.error('Error fetching search results:', error);
+              document.getElementById('results').innerHTML = '<p>Error loading results.</p>';
+          });
+  });
+  function toggleJson(index) {
+    var jsonElement = document.getElementById(`json${index}`);
+    if (jsonElement.style.display === 'none') {
+        jsonElement.style.display = 'block';
+    } else {
+        jsonElement.style.display = 'none';
+    }
+}
+</script>
+
+{% endblock %}

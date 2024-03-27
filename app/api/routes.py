@@ -5,9 +5,14 @@ views = Blueprint('views',__name__)
 def home():
     return render_template("base.html")
 
-@views.route('/search')
+@views.route('/searchAttributes')
 def search():
-    return render_template('search.html') 
+    return render_template('searchAttributes.html') 
+
+@views.route('/uploadImage')
+def uploadImage():
+    return render_template("uploadImage.html")
+
 
 auth = Blueprint('auth',__name__)
 @auth.route('/login')
@@ -21,7 +26,5 @@ def logout():
 
 
 
-@auth.route('/uploadImage')
-def uploadImage():
-    return render_template("uploadImage.html")
+
 

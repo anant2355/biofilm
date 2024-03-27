@@ -1208,3 +1208,463 @@
 2024-02-08 11:45:35,072 Thread-25 app.api.service INFO Connection to remote server created successfully
 2024-02-08 11:45:40,623 Thread-25 app.api.service INFO Connection to database created successfully
 2024-02-08 11:45:40,626 Thread-25 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experimet2/jpeg/Snap-10197.jpeg' on the remote server
+2024-02-20 12:53:27,167 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-20 12:53:33,674 Thread-11 app.api.service INFO Connection to database created successfully
+2024-02-20 14:39:27,510 Thread-8 app.api.service INFO Connection to database created successfully
+2024-02-22 07:20:29,188 Thread-6 app.api.service INFO Connection to database created successfully
+2024-02-22 07:26:32,930 Thread-10 app.api.service INFO Connection to remote server created successfully
+2024-02-22 07:26:34,366 Thread-10 app.api.service INFO Connection to remote server created successfully
+2024-02-22 07:26:34,980 Thread-10 app.api.service INFO Connection to database created successfully
+2024-02-22 07:26:34,996 Thread-10 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experimen1/jpeg/10181.jpeg' on the remote server
+2024-03-06 16:27:40,350 Thread-16 app.api.service INFO Connection to database created successfully
+2024-03-06 16:27:40,360 Thread-16 app.api.service ERROR While processing in Function search_attributes, we got <class 'pymysql.err.OperationalError'> Exception. 
+ '(1054, "Unknown column 'name' in 'where clause'")' in Line Number 194  File Name service.py
+2024-03-06 16:28:53,951 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-06 16:30:52,445 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-06 16:32:20,966 Thread-9 app.api.service INFO Connection to database created successfully
+2024-03-06 16:34:28,856 Thread-12 app.api.service INFO Connection to database created successfully
+2024-03-06 16:37:17,895 Thread-13 app.api.service INFO Connection to database created successfully
+2024-03-06 16:37:43,106 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-06 16:43:11,997 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-06 16:44:28,994 Thread-9 app.api.service INFO Connection to database created successfully
+2024-03-06 16:49:37,129 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-06 16:53:06,151 Thread-7 app.api.service INFO Connection to database created successfully
+2024-03-06 16:53:17,179 Thread-10 app.api.service INFO Connection to database created successfully
+2024-03-06 16:55:07,098 Thread-13 app.api.service INFO Connection to database created successfully
+2024-03-06 16:57:18,413 Thread-16 app.api.service INFO Connection to database created successfully
+2024-03-06 16:58:33,220 Thread-20 app.api.service INFO Connection to database created successfully
+2024-03-06 16:59:27,415 Thread-23 app.api.service INFO Connection to database created successfully
+2024-03-06 16:59:43,920 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-06 17:00:38,892 Thread-14 app.api.service INFO Connection to database created successfully
+2024-03-06 17:03:30,382 Thread-17 app.api.service INFO Connection to database created successfully
+2024-03-06 17:07:25,859 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-06 17:08:09,047 Thread-12 app.api.service INFO Connection to database created successfully
+2024-03-06 18:39:33,031 Thread-9 app.api.service INFO Connection to remote server created successfully
+2024-03-06 18:39:34,213 Thread-9 app.api.service INFO Connection to remote server created successfully
+2024-03-06 18:39:34,921 Thread-9 app.api.service INFO Connection to database created successfully
+2024-03-06 18:39:34,950 Thread-9 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10181.jpeg' on the remote server
+2024-03-06 18:39:35,447 Thread-9 app.api.service INFO Connection to remote server created successfully
+2024-03-06 18:39:36,313 Thread-9 app.api.service INFO Connection to remote server created successfully
+2024-03-06 18:39:36,835 Thread-9 app.api.service INFO Connection to database created successfully
+2024-03-06 18:39:36,843 Thread-9 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10182.jpeg' on the remote server
+2024-03-06 18:40:35,764 Thread-18 app.api.service INFO Connection to remote server created successfully
+2024-03-06 18:40:36,821 Thread-18 app.api.service INFO Connection to remote server created successfully
+2024-03-06 18:40:40,337 Thread-18 app.api.service INFO Connection to database created successfully
+2024-03-06 18:40:40,345 Thread-18 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10184.jpeg' on the remote server
+2024-03-06 18:40:40,829 Thread-18 app.api.service INFO Connection to remote server created successfully
+2024-03-06 18:40:41,864 Thread-18 app.api.service INFO Connection to remote server created successfully
+2024-03-06 18:40:42,421 Thread-18 app.api.service INFO Connection to database created successfully
+2024-03-06 18:40:42,425 Thread-18 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10183.jpeg' on the remote server
+2024-03-06 19:01:09,968 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-06 19:03:58,470 Thread-11 app.api.service INFO Connection to database created successfully
+2024-03-06 19:04:42,753 Thread-14 app.api.service INFO Connection to database created successfully
+2024-03-06 19:08:16,712 Thread-20 app.api.service INFO Connection to database created successfully
+2024-03-06 19:09:27,690 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-06 19:09:28,788 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-06 19:09:29,499 Thread-24 app.api.service INFO Connection to database created successfully
+2024-03-06 19:09:29,516 Thread-24 app.api.service INFO Image uploaded to '/data/biofilm/test_project2/test_experiment2/jpeg/10185.jpeg' on the remote server
+2024-03-06 19:09:29,983 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-06 19:09:30,774 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-06 19:09:31,376 Thread-24 app.api.service INFO Connection to database created successfully
+2024-03-06 19:09:31,381 Thread-24 app.api.service INFO Image uploaded to '/data/biofilm/test_project2/test_experiment2/jpeg/10186.jpeg' on the remote server
+2024-03-06 19:10:00,866 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-06 19:10:02,064 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-06 19:10:02,737 Thread-33 app.api.service INFO Connection to database created successfully
+2024-03-06 19:10:02,743 Thread-33 app.api.service INFO Image uploaded to '/data/biofilm/test_project3/test_experiment3/jpeg/10187.jpeg' on the remote server
+2024-03-06 19:10:03,239 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-06 19:10:04,050 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-06 19:10:05,343 Thread-33 app.api.service INFO Connection to database created successfully
+2024-03-06 19:10:05,347 Thread-33 app.api.service INFO Image uploaded to '/data/biofilm/test_project3/test_experiment3/jpeg/10188.jpeg' on the remote server
+2024-03-06 19:10:15,672 Thread-44 app.api.service INFO Connection to database created successfully
+2024-03-06 19:26:58,440 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-06 19:29:08,237 Thread-11 app.api.service INFO Connection to database created successfully
+2024-03-07 06:28:43,382 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-07 06:28:45,601 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:28:46,683 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:28:47,573 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:28:48,442 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:28:49,300 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:28:50,148 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:28:51,002 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:28:51,915 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:28:53,609 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:28:54,487 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:28:55,343 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:28:56,284 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:32:48,050 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-07 06:32:50,823 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:32:51,954 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:32:52,885 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:32:53,736 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:32:54,785 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:32:55,640 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:32:56,543 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:32:57,455 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:32:58,428 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:32:59,354 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:33:00,301 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:33:01,502 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:28,314 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-07 06:46:30,686 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:32,053 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:33,111 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:33,984 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:34,824 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:35,677 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:36,508 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:37,391 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:38,319 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:39,246 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:40,081 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:46:40,959 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:22,244 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-07 06:48:24,336 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:25,491 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:26,443 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:27,300 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:28,149 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:29,016 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:29,850 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:30,792 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:31,718 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:32,765 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:33,603 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 06:48:34,498 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:00,523 Thread-33 app.api.service INFO Connection to database created successfully
+2024-03-07 07:02:02,650 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:03,540 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:04,491 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:05,336 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:06,180 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:07,019 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:07,866 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:08,823 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:09,775 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:10,629 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:11,484 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:02:12,476 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:30,347 Thread-60 app.api.service INFO Connection to database created successfully
+2024-03-07 07:06:32,487 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:33,559 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:34,601 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:35,450 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:36,296 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:37,121 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:37,959 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:39,227 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:40,127 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:40,973 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:41,816 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:06:42,750 Thread-60 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:26,093 Thread-87 app.api.service INFO Connection to database created successfully
+2024-03-07 07:07:28,165 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:29,076 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:30,056 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:31,122 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:31,968 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:32,862 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:33,721 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:34,841 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:35,724 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:36,566 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:37,434 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:07:38,407 Thread-87 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:45,181 Thread-114 app.api.service INFO Connection to database created successfully
+2024-03-07 07:15:47,262 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:48,239 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:49,203 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:50,044 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:50,882 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:51,736 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:52,589 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:53,561 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:54,464 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:55,304 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:56,217 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:15:57,161 Thread-114 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:18:55,332 Thread-141 app.api.service INFO Connection to database created successfully
+2024-03-07 07:18:57,456 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:18:58,588 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:18:59,534 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:19:00,370 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:19:01,211 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:19:02,050 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:19:02,962 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:19:04,005 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:19:04,895 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:19:05,743 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:19:06,583 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:19:07,484 Thread-141 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:19:57,760 Thread-166 app.api.service INFO Connection to database created successfully
+2024-03-07 07:20:00,047 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:20:01,453 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:20:02,531 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:20:03,404 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:20:04,246 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:20:05,151 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:20:06,661 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:20:08,038 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:20:09,026 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:20:09,869 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:20:10,717 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 07:20:11,607 Thread-166 app.api.service INFO Connection to remote server created successfully
+2024-03-07 12:23:56,020 Thread-17 app.api.service ERROR While processing in Function remote_server_conn, we got <class 'TimeoutError'> Exception. 
+ '[Errno 60] Operation timed out' in Line Number 44  File Name service.py
+2024-03-07 12:23:56,033 Thread-17 app.api.service ERROR While processing in Function return_dir, we got <class 'AttributeError'> Exception. 
+ ''NoneType' object has no attribute 'exec_command'' in Line Number 94  File Name service.py
+2024-03-07 12:23:56,033 Thread-17 app.api.service ERROR While processing in Function submitform, we got <class 'AttributeError'> Exception. 
+ ''NoneType' object has no attribute 'close'' in Line Number 146  File Name service.py
+2024-03-07 12:28:59,148 Thread-20 app.api.service INFO Connection to database created successfully
+2024-03-07 12:30:15,795 Thread-20 app.api.service ERROR While processing in Function remote_server_conn, we got <class 'TimeoutError'> Exception. 
+ '[Errno 60] Operation timed out' in Line Number 44  File Name service.py
+2024-03-07 12:30:15,797 Thread-20 app.api.service ERROR While processing in Function search_attributes, we got <class 'AttributeError'> Exception. 
+ ''NoneType' object has no attribute 'exec_command'' in Line Number 207  File Name service.py
+2024-03-13 14:39:12,508 Thread-12 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:39:13,741 Thread-12 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:39:14,739 Thread-12 app.api.service INFO Connection to database created successfully
+2024-03-13 14:39:14,740 Thread-12 app.api.service ERROR While processing in Function submitform, we got <class 'KeyError'> Exception. 
+ ''experiment_name'' in Line Number 166  File Name service.py
+2024-03-13 14:39:50,094 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:39:51,021 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:39:52,082 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-13 14:39:52,082 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'KeyError'> Exception. 
+ ''experiment_name'' in Line Number 167  File Name service.py
+2024-03-13 14:41:02,241 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:41:03,306 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:41:04,572 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-13 14:41:04,623 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10181.jpeg' on the remote server
+2024-03-13 14:41:05,138 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:41:06,032 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:41:07,019 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-13 14:41:07,023 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10182.jpeg' on the remote server
+2024-03-13 14:42:55,224 Thread-15 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:42:56,159 Thread-15 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:42:56,884 Thread-15 app.api.service INFO Connection to database created successfully
+2024-03-13 14:42:56,891 Thread-15 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10183.jpeg' on the remote server
+2024-03-13 14:42:57,478 Thread-15 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:42:58,397 Thread-15 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:42:59,620 Thread-15 app.api.service INFO Connection to database created successfully
+2024-03-13 14:42:59,624 Thread-15 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10184.jpeg' on the remote server
+2024-03-13 14:43:55,586 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:43:56,469 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:44:22,674 Thread-24 app.api.service INFO Connection to database created successfully
+2024-03-13 14:44:22,677 Thread-24 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10181.jpeg' on the remote server
+2024-03-13 14:44:23,444 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:44:24,415 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:44:42,144 Thread-24 app.api.service INFO Connection to database created successfully
+2024-03-13 14:44:42,148 Thread-24 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10182.jpeg' on the remote server
+2024-03-13 14:46:19,187 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:46:20,448 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:46:43,528 Thread-33 app.api.service INFO Connection to database created successfully
+2024-03-13 14:46:43,534 Thread-33 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/Snap-10183.jpeg' on the remote server
+2024-03-13 14:46:44,376 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:46:45,418 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:47:07,953 Thread-33 app.api.service INFO Connection to database created successfully
+2024-03-13 14:47:07,958 Thread-33 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/Snap-10184.jpeg' on the remote server
+2024-03-13 14:47:12,638 Thread-42 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:47:13,590 Thread-42 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:47:37,752 Thread-42 app.api.service INFO Connection to database created successfully
+2024-03-13 14:47:37,758 Thread-42 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10185.jpeg' on the remote server
+2024-03-13 14:47:38,510 Thread-42 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:47:39,523 Thread-42 app.api.service INFO Connection to remote server created successfully
+2024-03-13 14:48:10,174 Thread-42 app.api.service INFO Connection to database created successfully
+2024-03-13 14:48:10,179 Thread-42 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10186.jpeg' on the remote server
+2024-03-13 15:09:49,936 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:09:51,210 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:09:51,934 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-13 15:09:51,936 Thread-6 app.api.service ERROR While processing in Function submitform, we got <class 'pymysql.err.ProgrammingError'> Exception. 
+ '(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND organism_ncbi_id = 'NCBITaxon_1000009'' at line 1")' in Line Number 168  File Name service.py
+2024-03-13 15:10:14,089 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:10:15,024 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:10:15,742 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-13 15:10:15,759 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10182.jpeg' on the remote server
+2024-03-13 15:10:16,306 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:10:17,151 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:10:18,153 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-13 15:10:18,156 Thread-6 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10181.jpeg' on the remote server
+2024-03-13 15:11:18,090 Thread-15 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:11:19,007 Thread-15 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:11:19,678 Thread-15 app.api.service INFO Connection to database created successfully
+2024-03-13 15:11:19,682 Thread-15 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10183.jpeg' on the remote server
+2024-03-13 15:11:20,233 Thread-15 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:11:21,121 Thread-15 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:11:22,198 Thread-15 app.api.service INFO Connection to database created successfully
+2024-03-13 15:11:22,202 Thread-15 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10184.jpeg' on the remote server
+2024-03-13 15:21:27,638 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:21:28,969 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:21:30,265 Thread-24 app.api.service INFO Connection to database created successfully
+2024-03-13 15:21:30,278 Thread-24 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10181.jpeg' on the remote server
+2024-03-13 15:21:30,868 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:21:31,889 Thread-24 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:21:33,030 Thread-24 app.api.service INFO Connection to database created successfully
+2024-03-13 15:21:33,035 Thread-24 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10182.jpeg' on the remote server
+2024-03-13 15:21:50,236 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:21:51,094 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:21:51,812 Thread-33 app.api.service INFO Connection to database created successfully
+2024-03-13 15:21:51,818 Thread-33 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10183.jpeg' on the remote server
+2024-03-13 15:21:52,349 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:21:53,263 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:21:54,058 Thread-33 app.api.service INFO Connection to database created successfully
+2024-03-13 15:21:54,064 Thread-33 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10184.jpeg' on the remote server
+2024-03-13 15:22:09,785 Thread-42 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:22:10,678 Thread-42 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:22:11,385 Thread-42 app.api.service INFO Connection to database created successfully
+2024-03-13 15:22:11,392 Thread-42 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10185.jpeg' on the remote server
+2024-03-13 15:22:11,945 Thread-42 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:22:12,857 Thread-42 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:22:13,725 Thread-42 app.api.service INFO Connection to database created successfully
+2024-03-13 15:22:13,729 Thread-42 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/10186.jpeg' on the remote server
+2024-03-13 15:27:55,868 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-13 15:27:58,093 Thread-8 app.api.service ERROR While processing in Function search_attributes, we got <class 'pymysql.err.OperationalError'> Exception. 
+ '(1054, "Unknown column 'i.experiment_name' in 'on clause'")' in Line Number 210  File Name service.py
+2024-03-13 15:28:39,778 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-13 15:28:42,413 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:28:43,552 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:28:44,507 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:28:45,506 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:28:46,672 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:28:47,644 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:30:26,718 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-13 15:30:29,375 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:30:30,577 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:30:31,628 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:30:32,709 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:30:33,909 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-13 15:30:34,954 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:37:53,555 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:37:54,919 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:38:07,912 Thread-11 app.api.service INFO Connection to database created successfully
+2024-03-14 08:38:07,924 Thread-11 app.api.service INFO Image uploaded to '/data/biofilm/est_project1/test_experiment1/jpeg/Snap-10181.jpeg' on the remote server
+2024-03-14 08:38:08,630 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:38:09,473 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:38:22,953 Thread-11 app.api.service INFO Connection to database created successfully
+2024-03-14 08:38:22,960 Thread-11 app.api.service INFO Image uploaded to '/data/biofilm/est_project1/test_experiment1/jpeg/Snap-10182.jpeg' on the remote server
+2024-03-14 08:39:27,637 Thread-22 app.api.service INFO Connection to database created successfully
+2024-03-14 08:39:30,252 Thread-22 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:39:31,009 Thread-22 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:39:42,668 Thread-28 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:39:42,877 Thread-28 app.api.service ERROR While processing in Function download_czi, we got <class 'FileNotFoundError'> Exception. 
+ '[Errno 2] No such file' in Line Number 254  File Name service.py
+2024-03-14 08:41:10,245 Thread-33 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:41:10,447 Thread-33 app.api.service ERROR While processing in Function download_czi, we got <class 'FileNotFoundError'> Exception. 
+ '[Errno 2] No such file' in Line Number 254  File Name service.py
+2024-03-14 08:44:31,214 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-14 08:44:33,860 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:44:34,832 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:45:40,797 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:45:41,003 Thread-14 app.api.service ERROR While processing in Function download_czi, we got <class 'FileNotFoundError'> Exception. 
+ '[Errno 2] No such file' in Line Number 255  File Name service.py
+2024-03-14 08:47:57,138 Thread-6 app.api.service INFO Connection to database created successfully
+2024-03-14 08:47:59,708 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:48:00,464 Thread-6 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:48:09,230 Thread-12 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:52:39,174 Thread-8 app.api.service INFO Connection to database created successfully
+2024-03-14 08:52:41,938 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:52:42,881 Thread-8 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:52:50,246 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-03-14 08:53:35,029 Thread-19 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:04:10,098 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:04:11,177 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:04:19,585 Thread-11 app.api.service INFO Connection to database created successfully
+2024-03-14 09:04:19,599 Thread-11 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10181.jpeg' on the remote server
+2024-03-14 09:04:20,306 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:04:21,151 Thread-11 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:04:32,531 Thread-11 app.api.service INFO Connection to database created successfully
+2024-03-14 09:04:32,536 Thread-11 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10182.jpeg' on the remote server
+2024-03-14 09:05:33,465 Thread-20 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:05:34,296 Thread-20 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:05:47,030 Thread-20 app.api.service INFO Connection to database created successfully
+2024-03-14 09:05:47,041 Thread-20 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10183.jpeg' on the remote server
+2024-03-14 09:05:47,746 Thread-20 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:05:48,589 Thread-20 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:05:59,993 Thread-20 app.api.service INFO Connection to database created successfully
+2024-03-14 09:05:59,998 Thread-20 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10184.jpeg' on the remote server
+2024-03-14 09:06:12,146 Thread-29 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:06:13,265 Thread-29 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:06:28,471 Thread-29 app.api.service INFO Connection to database created successfully
+2024-03-14 09:06:28,478 Thread-29 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/Snap-10185.jpeg' on the remote server
+2024-03-14 09:06:29,153 Thread-29 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:06:29,979 Thread-29 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:06:46,742 Thread-29 app.api.service INFO Connection to database created successfully
+2024-03-14 09:06:46,747 Thread-29 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/Snap-10186.jpeg' on the remote server
+2024-03-14 09:06:54,911 Thread-38 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:06:56,042 Thread-38 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:07:09,727 Thread-38 app.api.service INFO Connection to database created successfully
+2024-03-14 09:07:09,735 Thread-38 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment3/jpeg/Snap-10187.jpeg' on the remote server
+2024-03-14 09:07:10,438 Thread-38 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:07:11,272 Thread-38 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:07:25,321 Thread-38 app.api.service INFO Connection to database created successfully
+2024-03-14 09:07:25,376 Thread-38 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment3/jpeg/Snap-10188.jpeg' on the remote server
+2024-03-14 09:07:29,988 Thread-49 app.api.service INFO Connection to database created successfully
+2024-03-14 09:07:32,650 Thread-49 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:07:33,508 Thread-49 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:07:34,334 Thread-49 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:07:35,224 Thread-49 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:07:36,087 Thread-49 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:07:37,032 Thread-49 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:07:37,786 Thread-49 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:07:38,539 Thread-49 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:09:11,736 Thread-67 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:09:22,018 Thread-72 app.api.service INFO Connection to remote server created successfully
+2024-03-14 09:10:22,365 Thread-77 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:16:15,955 Thread-12 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:16:17,051 Thread-12 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:16:19,881 Thread-12 app.api.service INFO Connection to database created successfully
+2024-03-14 12:16:19,907 Thread-12 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10181.jpeg' on the remote server
+2024-03-14 12:16:20,658 Thread-12 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:16:21,461 Thread-12 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:16:24,227 Thread-12 app.api.service INFO Connection to database created successfully
+2024-03-14 12:16:24,232 Thread-12 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10182.jpeg' on the remote server
+2024-03-14 12:17:18,480 Thread-21 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:17:19,298 Thread-21 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:17:22,881 Thread-21 app.api.service INFO Connection to database created successfully
+2024-03-14 12:17:22,890 Thread-21 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10183.jpeg' on the remote server
+2024-03-14 12:17:23,560 Thread-21 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:17:24,325 Thread-21 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:17:27,321 Thread-21 app.api.service INFO Connection to database created successfully
+2024-03-14 12:17:27,326 Thread-21 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10184.jpeg' on the remote server
+2024-03-14 12:17:59,219 Thread-30 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:18:00,013 Thread-30 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:18:03,181 Thread-30 app.api.service INFO Connection to database created successfully
+2024-03-14 12:18:03,186 Thread-30 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10185.jpeg' on the remote server
+2024-03-14 12:18:03,857 Thread-30 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:18:04,618 Thread-30 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:18:07,361 Thread-30 app.api.service INFO Connection to database created successfully
+2024-03-14 12:18:07,364 Thread-30 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment1/jpeg/Snap-10186.jpeg' on the remote server
+2024-03-14 12:18:35,660 Thread-39 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:18:36,828 Thread-39 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:18:39,940 Thread-39 app.api.service INFO Connection to database created successfully
+2024-03-14 12:18:39,948 Thread-39 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/Snap-10187.jpeg' on the remote server
+2024-03-14 12:18:40,630 Thread-39 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:18:41,408 Thread-39 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:18:44,900 Thread-39 app.api.service INFO Connection to database created successfully
+2024-03-14 12:18:44,905 Thread-39 app.api.service INFO Image uploaded to '/data/biofilm/test_project1/test_experiment2/jpeg/Snap-10188.jpeg' on the remote server
+2024-03-14 12:31:24,741 Thread-50 app.api.service INFO Connection to database created successfully
+2024-03-14 12:31:27,396 Thread-50 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:31:28,131 Thread-50 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:31:28,867 Thread-50 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:31:29,599 Thread-50 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:31:30,373 Thread-50 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:31:31,047 Thread-50 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:31:31,800 Thread-50 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:31:32,527 Thread-50 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:33:09,086 Thread-68 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:33:45,266 Thread-73 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:34:19,970 Thread-78 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:34:27,049 Thread-83 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:34:37,298 Thread-88 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:35:26,319 Thread-93 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:35:36,384 Thread-98 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:35:50,178 Thread-103 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:36:00,787 Thread-108 app.api.service INFO Connection to remote server created successfully
+2024-03-14 12:37:00,898 Thread-113 app.api.service INFO Connection to remote server created successfully
+2024-03-27 18:00:59,418 Thread-14 app.api.service INFO Connection to database created successfully
+2024-03-27 18:01:02,738 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-03-27 18:01:03,923 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-03-27 18:01:05,073 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-03-27 18:01:06,092 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-03-27 18:01:06,838 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-03-27 18:01:07,799 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-03-27 18:01:08,836 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-03-27 18:01:09,615 Thread-14 app.api.service INFO Connection to remote server created successfully
+2024-03-27 18:01:19,373 Thread-32 app.api.service INFO Connection to remote server created successfully

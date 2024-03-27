@@ -2,7 +2,7 @@
 -- drop table Biofilm.experiment;
 
 CREATE TABLE Biofilm.experiment (
-  id INT NOT NULL AUTO_INCREMENT,
+  experiment_id INT NOT NULL AUTO_INCREMENT,
   experiment_name VARCHAR(255) NOT NULL,
   project VARCHAR(255) NOT NULL, 
   lab_owner VARCHAR(255) NOT NULL, 
@@ -12,7 +12,7 @@ CREATE TABLE Biofilm.experiment (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, 
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   INDEX idx_experiment_updated_at (updated_at),  
-  PRIMARY KEY (id),
+  PRIMARY KEY (experiment_id),
   FOREIGN KEY (lab_owner) REFERENCES labs (lab_owner),
   FOREIGN KEY (organism_ncbi_id) REFERENCES organisms (ncbi_id),
   FOREIGN KEY (vessel_name) REFERENCES vessels (vessel_name),

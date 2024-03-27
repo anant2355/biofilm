@@ -2,6 +2,7 @@ import os
 import sys
 import json
 from flask import Flask
+from flask_cors import CORS
 from dotenv import load_dotenv
 import configargparse as argparse
 from core.logger import get_logger
@@ -60,6 +61,7 @@ class Process():
     def get_app(self, ):
         try:
             app = Flask(__name__)
+            CORS(app)
             from app.api.routes import views
             from app.api.routes import auth
             app.register_blueprint(views,url_prefix = '/')

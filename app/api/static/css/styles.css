@@ -63,3 +63,11 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+
+.details {
+  display: none; /* Initially hide the details */
+}
+
+li:hover .details {
+  display: block; /* Show the details when the parent li element is hovered over */
+}
